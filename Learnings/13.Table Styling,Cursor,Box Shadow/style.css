@@ -1,0 +1,72 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;   
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th,td{
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+    cursor:pointer;
+}
+th{
+    background-color: orange;
+}
+tr:hover{
+    background-color: aquamarine;
+}
+.b-green:hover{
+    border-bottom: 5px solid green;
+}                   
+.b-blue:hover{
+    border-bottom: 5px solid blue;
+}
+.b-orange:hover{
+    border-bottom: 5px solid white;
+}
+.b-red:hover{
+    border-bottom: 5px solid red;
+}
+.b-pink:hover{
+    border-bottom: 5px solid pink;
+}
+
+.container{
+    display: flex;
+    gap: 5px;
+}
+.container div{
+    border: 2px solid red;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+    /* 
+    first - horizental
+    second - vertical
+    third - blur
+    fourth - scale
+    fifth - color
+    */
+      box-shadow: 0px 0px 2px 2px rgb(94, 94, 255);
+    
+}
+.container div:hover{
+  
+    cursor: pointer;
+}
+h3:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-style: solid;
+    text-decoration-color: blue;
+}

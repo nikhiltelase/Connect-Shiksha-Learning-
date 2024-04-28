@@ -1,0 +1,35 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid;
+    /* Center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+    /* transform: rotate(45deg); */
+    margin: auto;
+    box-shadow: 10px 10px 5px black;
+    /* transform: skewX(10deg); */
+  }
+  
+  
+  .box:hover {
+    /* 
+      translate
+      rotate
+      skew
+      scale
+      matrix
+       */
+       /* transform: translateY(-10px); */
+    /* transform:translate(50px,50px) ; */
+    /* transform: rotate(-30deg); */
+    /* transform: skew(30deg, 30deg); */
+    /* transform: scale(-1); */
+    /* transform: matrix(1, 0.3, 0, 1, 1, 1); */
+    /* transform: rotateZ(30deg); */
+    /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+  
+  }

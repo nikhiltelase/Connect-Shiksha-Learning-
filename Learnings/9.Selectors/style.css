@@ -1,0 +1,67 @@
+h1 {
+    /* border: 2px solid black; */
+    background-image: url(Images/computer.jpg);
+    /* height: 300px; */
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    /* background-color: darkslategray;
+      color: white; */
+  }
+  .bg-green {
+    background-color: green;
+  }
+  .bg-blue {
+    background-color: rgb(201, 201, 255);
+  }
+  
+  #center-box {
+    background-color: bisque;
+  }
+  
+  /* div,p,h1{
+      background-color: aquamarine;
+  } */
+  
+  /* 
+  selector --> kis element pe css lagani hai
+     
+  Property --> konsi property use krna hai
+  
+  value --> 
+  */
+  /* 
+  1) universel selector  --> * -->
+  2) element selector --> div --> x
+  3) Group of selector  --> h1 ,p ,div --> x
+  4) Class -->  . --> ✅
+  5) ID --> # --> overright the class css
+  
+  */
+  
+  .container {
+    background-color: cadetblue;
+  
+    h1 {
+      color: white;
+    }
+    p {
+      padding: 20px;
+    }
+    
+  }
+  .img-container{
+      background-color: bisque;
+      padding: 20px;
+      text-align: center;
+      
+      button{
+          background-color: aqua;
+         padding: 5px 20px;
+         border-radius: 10px;
+  
+      }
+  }

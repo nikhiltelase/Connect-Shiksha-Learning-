@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 40px;
+    background-color: rgba(8, 42, 154, 0.063);
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    
+}
+header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: 30px;
+    font-size: x-large;
+    padding: 40px 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container div{
+    margin-left: 20px;
+}
+table{
+    width: 1400px;
+    height: 500px;
+    padding: 30px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.092);
+}
+table img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+thead td{
+    text-transform: uppercase;
+    font-size: larger;  
+    cursor: pointer; 
+}
+tbody{
+    background-color: white;
+    cursor: pointer;
+}
+.first-coloum{
+    display: flex;
+    padding: 12px;
+}
+.first-coloum div{
+    margin-left: 10px;
+}
+button{
+    width: 80px;
+    border-radius: 10px;
+    color: green;
+    background-color: rgba(118, 187, 118, 0.404);
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+}
+.fourth-coloum{
+    font-size: larger;
+}
+.fifth-coloum{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(10, 67, 181);
+}
+.container:hover{
+    border: 5px solid white;
+   padding: 30px;
+}
+table img:hover{
+   width: 55px; 
+   height: 55px;
+}
+tr:hover{
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+button:hover{
+    width: 85px;
+    height: 30px;
+}
+thead td:hover{
+    text-decoration: underline;
+}
+.fifth-coloum:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}

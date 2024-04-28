@@ -1,0 +1,36 @@
+/* Object-fit */
+img {
+    height: 500px;
+    width: 500px;
+    border: 3px solid;
+    object-fit: cover;
+  }
+  /* Pseudo-class,Pseudo-Elements */
+  h1::after {
+    content: " Guys 👋";
+  }
+  h1::before {
+    content: "1 ";
+    color: red;
+    /* background-color: ; */
+    /* background-color: green; */
+  }
+  
+  p::first-line {
+    font-size: 20px;
+    color: red;
+  }
+  ::selection {
+    background-color: rgb(51, 0, 255);
+    color: red;
+  }
+  div {
+    color: green;
+  }
+  h3 {
+    color: inherit;
+  }
+  /*  
+  initial - original value
+  inherit - parent ki value
+  */

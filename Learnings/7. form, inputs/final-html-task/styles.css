@@ -1,0 +1,22 @@
+.bxs-grid{
+  margin-left: 500px;
+  height: 50px;
+  font-size: xx-large;
+}
+.bx-user-circle{
+  height: 50px;
+  font-size: xx-large;
+}
+*{
+  text-align: center;
+}
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+#search{
+  width: 400px;
+  height: 38px;
+  border-radius: 10px ;
+}

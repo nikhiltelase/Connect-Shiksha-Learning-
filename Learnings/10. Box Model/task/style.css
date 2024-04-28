@@ -1,0 +1,28 @@
+
+html{
+    background-color: rgb(225, 173, 238);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(241, 238, 233);
+    color: black;
+    border-radius: 30px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 5px 2px rgb(211, 211, 222);
+}
+
+li{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+div{
+    margin: 500px;
+    margin-top: 200px;
+    height: 700px;
+    width: 100px;
+}

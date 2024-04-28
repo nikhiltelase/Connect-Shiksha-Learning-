@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: rgb(13, 10, 10);
+    padding: 50px;
+}
+.container{
+    background-image: url("https://media.istockphoto.com/id/1185382671/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=3YwJa7lCw-cQ-hviINULUokL9lYU4RuGjMP_E_0N8E4=");
+    background-size: cover;
+    
+}
+.small-container{
+    background-color: rgba(0, 0, 0, 0.296);
+    width: 330px;
+    height: 200px;
+    display: inline-block;
+    font-size: small;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+section{
+    display: flex;
+}
+h3{
+    margin-top: 10px;
+}

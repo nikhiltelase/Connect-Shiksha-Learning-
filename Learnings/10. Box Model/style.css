@@ -1,0 +1,39 @@
+.box{
+    background-color: bisque;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    padding: 10px 20px 25px 40px;
+    border: 5px solid;
+    margin: 10px 25px 30px 50px;
+   /* 390 345    */
+   /* 200 40 10 50 */
+   /* 
+   185 
+   */
+    /* 
+    one value -> all sides
+    two value -> top-bottom left-right
+    thee value -> top left-right bottom
+    four value  -> top right bottom left
+    */
+
+    /* 
+    200 40 20 5 5 50 25 = 345
+    100 10 25 5 5 10 30 = 185
+
+
+    total width = width + left padding + right padding + left border 
+    + right border + left margin + right margin
+    
+    
+
+    total height = height + top padding + bottom padding + 
+    top border + bottom border + top margin + bottom margin
+
+    */
+}
+/* 
+total width = 200px + 10px + 10px + 5 px + 5px + 10px + 10px = 250px
+
+*/

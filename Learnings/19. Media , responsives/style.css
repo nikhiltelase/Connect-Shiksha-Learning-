@@ -1,0 +1,49 @@
+/* 
+Desktop/TV - 1920 - 2200
+
+Laptop - 1250 - 1450
+
+Tablet - 750 - 950
+
+Mobile - 300 - 500
+
+*/
+
+/* desktop and laptop */
+
+body {
+    background-color: aquamarine;
+  }
+  img {
+    width: 50%;
+    /* height: 200px; */
+    border: 5px solid red;
+  }
+  .box1{
+      
+  
+     
+  }
+  
+  
+  
+  /* tap */
+  
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: pink;
+    }
+    img {
+      border-color: green;
+    }
+  }
+  
+  /* mobile */
+  @media screen and (max-width: 500px) {
+    body {
+      background-color: bisque;
+    }
+    img {
+      border-color: aqua;
+    }
+  }

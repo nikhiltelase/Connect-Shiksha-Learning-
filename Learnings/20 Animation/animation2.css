@@ -1,0 +1,108 @@
+.container {
+  background-color: aquamarine;
+  height: 500px;
+  width: 90%;
+  padding: 10px;
+  border: 5px solid;
+  position: relative;
+}
+.f1 {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  position: absolute;
+  animation-name: football;
+  animation-duration: 5s;
+  /* animation-delay: 3s; */
+  animation-iteration-count: 5;
+  animation-direction:alternate;
+  animation-timing-function:ease-in-out;
+  /* animation-fill-mode: backwards; */
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px red;
+}
+.f2 {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  position: absolute;
+  animation-name: football;
+  animation-duration: 5s;
+  /* animation-delay: 0.1s; */
+  animation-iteration-count: 5;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  background-color: greenyellow;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px orange;
+}
+
+@keyframes football {
+  /* from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 80%;
+    left: 80%;
+  } */
+
+  0% {
+    top: 0%;
+    left: 0%;
+    background-color: yellow;
+  }
+  25% {
+    top: 0%;
+    left: 80%;
+    background-color: greenyellow;
+  }
+  50% {
+    top: 80%;
+    left: 0%;
+    background-color: pink;
+  }
+  75% {
+    top: 80%;
+    left: 80%;
+    background-color: aqua;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+    background-color: yellow;
+  }
+
+  /* 
+    from - kha start krna hai 
+    to - kha jana hai   
+
+   0%
+   25%
+   50%
+   75%
+   100%
+
+
+    */
+}
+/* Day 2 Animation */
+
+/* 
+@keyframes --> animation bnane k liye 
+animation-name --> run  requied
+animation-duration --> 2s 
+
+optional ()
+
+animation-delay --> 2s
+animation-iteration-count --> kitne bar infite 5 3
+animation-direction - direction 
+animation-timing-function --> start or end
+animation-fill-mode --> reverse 
+
+
+animation
+*/

@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e2d2d2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #dbcfcf;
+    border-radius: 10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 0 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #c4a7a7;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #eee0e0;
+}
+th, td {
+    padding: 8px;
+
+    text-align: left;
+}
+
+

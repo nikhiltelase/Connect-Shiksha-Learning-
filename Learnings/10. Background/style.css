@@ -1,0 +1,75 @@
+h1 {
+    /* 
+      colors name
+      rgb
+      hex code
+      hsl
+      */
+    /* color: red; */
+    /* color: rgba(55, 150, 120, 0.5); */
+    color: #04aa6d;
+    /* 
+      white color - #ffffff
+      black color - #000000
+      */
+    /* color: hsl(0, 50%, 50%); */
+  }
+  .box {
+    /* border: 2px solid black; */
+    /* width: 200px; */
+    height: 1000px;
+    /* 
+  background-color
+  background-image
+  background-repeat
+  background-attachment
+  background-position
+      */
+    /* background-color: #3d5c78;
+       */
+    background-image: url(Images/computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 
+    */
+  
+    border: 2px solid;
+    /* background-attachment: fixed; */
+    /* fixed
+       scroll
+       */
+    /* 
+    size>>>
+    auto
+    cover --> crop cover
+    contain --> original show repeat
+    */
+    background-position: center right;
+  
+    /* border */
+  
+    /* 
+    border width
+    border style 
+    border color
+    
+    */
+    /* border-width: 5px;
+    border-style: solid dotted double;
+    border-color: red green blue yellow; */
+    /* border: 5px double red; */
+    /* border-radius: 50%; */
+    /* 
+    one value - all four
+    two value - top-bottom left-right
+    three value - top left-right bottom
+    four value - top right bottom left
+    */
+  }
+  /* img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+  } */
+  /*  */

@@ -1,0 +1,79 @@
+/* Resetting some default styles */
+
+h1{
+    font-size: xx-large;
+}
+.fa-facebook{
+    color: blue;
+    margin-left: 250px;
+}
+.fa-twitter{
+    color: rgb(50, 101, 218);
+    margin-left: 20px;
+}
+.fa-instagram{
+    color: rgb(201, 39, 171);
+    margin-left: 20px;
+}
+.fa-linkedin{
+    color: rgb(29, 40, 203);
+    margin-left: 20px;
+}
+.fa-youtube{
+    color: rgb(239, 29, 67);
+    margin-left: 20px;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    width: 20%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search{
+    width: 50px;
+    height: 30px;
+}
+.bottom-bar {
+    clear: both;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    text-align: center;
+}
+

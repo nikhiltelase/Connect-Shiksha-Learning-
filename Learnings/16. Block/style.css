@@ -1,0 +1,86 @@
+body{
+    height: 1200vh;
+}
+
+.container {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  height: 500px;
+  position: relative;
+}
+.container div {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  display: inline-block;
+  /* display */
+  /* 
+    inline - height-width not applied
+    block - height-width applied
+    inline-block 
+    none
+
+    flex
+    grid
+    table
+  
+    */
+
+  /* position */
+  /* 
+    static
+    relative
+    absolute
+    fixed
+
+
+    sticky
+    */
+    
+}
+.box1 {
+  background-color: aquamarine;
+}
+.box2 {
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.container .box3 {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  /* display: none; */
+  /* visibility: hidden; */
+}
+.box4 {
+  background-color: blue;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* right: 220px;
+  top: 200px; */
+}
+
+h1 {
+  border: 2px solid red;
+  width: 150px;
+  background-color: green;
+  color: white;
+
+  position: fixed;
+  left: 0;
+  top: 10%;
+  transform: rotate(90deg);
+
+}
+span {
+  border: 2px solid red;
+  height: 100px;
+  width: 100px;
+  display: block;
+}

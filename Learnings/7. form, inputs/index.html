@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            width: 300px;
+
+            display: block;
+            /* background-color: red; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Form -->
+    <h1 id="">Form</h1>
+    <form method="get" action="">
+        <!-- radio button -->
+        <!-- mutiple option kisi ek option select krna hai to hm radio btn kia use krte hai -->
+        <label for="">Choose the CAST :</label>
+        <br>
+        <input type="radio" name="cast" id="1">OBC
+        <input type="radio" name="cast" id="2">SC / ST
+        <input type="radio" name="cast" id="3">GEN
+        <br>
+        <br>
+        <!-- checkbox -->
+        <label for="">Choose the Subject :</label>
+        <br>
+        <input type="checkbox" name="" id="">English
+        <input type="checkbox" name="" id="" checked disabled>Sanskrit
+        <input type="checkbox" name="" id="">IT
+        <br>
+        <br>
+        <!-- Form genral input -->
+        <label for="fname">Fill the form :</label>
+        <br>
+        <label for="">Full Name :</label>
+        <input placeholder="enter ur name" type="text" name="fname" id="" maxlength="10" minlength="5">
+        <br>
+        <br>
+        <label for="">Phone :</label>
+        <input disabled type="number" name="" id="" value="12345678">
+        <br>
+        <br>
+        <label for="">Email :</label>
+        <input type="email" name="email" id="" value="student@gmail.com" readonly>
+        <br>
+        <br>
+        <label for="">Address :</label>
+        <textarea name="" id="" cols="50" rows="2" placeholder="enter you address"></textarea>
+        <br>
+        <label for="">Select Right option :</label>
+        <select name="" id="">
+
+            <option value="5" selected>select the option</option>
+            <option value="5">option 1</option>
+            <option value="6">option 2</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Upload the Img :</label>
+        <input type="file" name="" id="" multiple>
+        <br>
+        <br>
+        <label for="">DOB :</label>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <br>
+        <label for="">Password : </label>
+        <input type="password" name="" id="" required>
+        <br>
+        <br>
+        <label for="">Password :</label>
+        <input type="range" name="" id="">
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- 
+        post: data send database 
+              url me data show nhi hota
+              secure
+              unlimited
+              
+
+        get:  data fetch database
+              url me data show  hota
+              non secure
+              limit 
+
+    attribute:
+
+    maxlength
+    minlength
+    required
+    readonly
+    disable
+    checked
+    value
+    placeholder
+    selected
+    multiple
+
+
+     -->
+</body>
+
+</html>

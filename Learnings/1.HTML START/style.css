@@ -1,0 +1,32 @@
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: #dbd4d4;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+
+  .card-body p {
+    font-family: cursive;
+    line-height: 1.5;
+  }
+  
+  .card-image {
+    width: 300px;
+    height: 250px; 
+    border-radius: 20px;
+  }
+button{
+    width: 120px;
+    height: 40px;
+    font-weight:bold;
+    border-radius: 20px;
+    color: rgba(65, 7, 64, 0.636);
+    background: rgba(223, 224, 226, 0.459);
+    margin-left: 70px;
+}
+  .crater{
+    text-align: center;
+  }

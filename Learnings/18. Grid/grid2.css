@@ -1,0 +1,25 @@
+.container {
+  background-color: aquamarine;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px 40px;
+  text-align: center;
+}
+
+.box {
+  padding: 20px;
+  border: 2px solid red;
+  background-color: bisque;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    grid-template-columns: auto;
+  }
+}

@@ -1,0 +1,88 @@
+/* Reset default margin and padding */
+
+/* Apply styles to the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #634dce;
+    padding: 10px 0;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-color: #f3dc82;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/* Style the services section */
+.services {
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 2rem;
+    color: #c62121;
+    margin-bottom: 20px;
+}
+
+.services img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.services h4 {
+    font-size: 1.5rem;
+    color: #3b119d;
+}
+
+.services p {
+    font-size: 1rem;
+    color: #5219bb;
+}
+
+/* Style the about section */
+.about-us {
+    background-color: #cbbfd20d;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-us h3 {
+    font-size: 2rem;
+    color: #f81a1a;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    color: #a32424;
+}
+
+/* Style the contact section */
+.contact-us {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-us h3 {
+    font-size: 2rem;
+    color: #d90c0c;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    color: #a41616;
+}

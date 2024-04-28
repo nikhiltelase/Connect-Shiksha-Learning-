@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Set a background image for the entire page */
+body {
+    background-image: linear-gradient(to right top, #051937, #002639, #002f31, #1f362b, #373b2d) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #ebdede; /* Default text color */
+    text-align: center;
+}
+
+/* Style the header/navigation */
+header {
+    background-color: rgba(22, 8, 8, 0.029); /* Semi-transparent black background */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content sections */
+section {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff6600; /* Orange heading color */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e65100; /* Darker orange on hover */
+}

@@ -1,0 +1,32 @@
+.container > * {
+    border: 2px solid red;
+    background-color: rgb(252, 213, 141);
+    text-align: center;
+  }
+  .container {
+    background-color: aquamarine;
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-rows: 2fr 8fr 2fr;
+    grid-template-areas:
+      "head head head"
+      "left-sidebar main-content right-sidebar"
+      "foot foot foot";
+  }
+  .header {
+    grid-area: head;
+  }
+  .left-sidebar {
+    grid-area: left-sidebar;
+  }
+  .right-sidebar {
+    grid-area: right-sidebar;
+  }
+  .main-content {
+    grid-area: main-content;
+  }
+  .footer {
+    grid-area: foot;
+  }

@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    /* background-image: linear-gradient(
+      58.2deg,
+      rgba(40, 91, 212, 0.73) -3%,
+      rgba(171, 53, 163, 0.45) 49.3%,
+      rgba(255, 204, 112, 0.37) 97.7%
+    ); */
+    background-image: url(Images/computer.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .box {
+    border: 2px solid;
+    margin: 5px;
+    overflow: hidden;
+    width: 40%;
+    height: fit-content;
+  }
+  .box img {
+    float: right;
+    margin: 10px;
+  }
+  
+  /* 
+  boxes ko ek line me lane k trike
+  
+  #parent
+  display flex
+  display grid
+  
+  #child
+  display inline block
+  float
+  
+  
+  */
+  /* display: inline-block; */
+  /* background-color: #fbab7e;
+    background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%); */
+  /* height: 150px;
+    width: 250px; */
+  /* background-image: linear-gradient(to bottom, red,yellow); */
+  /* background-image: radial-gradient(circle, red,yellow, green, blue); */
+  /* background-image: conic-gradient(red,green, blue,yellow,black,#3ef451); */
+  /* 
+  
+    linear - start end
+    radial - center
+    conic - cone
+    */

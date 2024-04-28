@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(21, 20, 50);
+    height: 60px;
+    color: white;
+    padding: 10px;
+    font-size: small;
+}
+.location{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    
+}
+.location i{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.logo{
+    background-color: rgb(30, 29, 54);
+    margin-bottom: 0px;
+}
+.search-box{
+    margin-left: 160px;
+    width: 750px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+#catagiry{
+    width: 50px;
+    height: 41px;
+    position: absolute;
+    left: 0px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(231, 227, 227);
+}
+.search-box i{
+    color: black;
+    font-size: x-large;
+    background-color: rgb(240, 162, 44);
+    padding: 8px;
+    position: absolute;
+    left: 710px;
+    border-radius: 0px 5px 5px 0px;
+}
+.search-box input{
+    width: 690px;
+    height: 30px;
+    margin-left: 30px;
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    font-size: 105%;
+}
+.language{
+    margin-top: 12px;
+}
+.language select, .Account select{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.cart{
+    display: flex;
+    margin-right: 20px;
+}
+.cart i{
+    font-size: 200%;
+    margin-top: 10px;
+}
+.cart p{
+    padding: 5px;
+}
+
+/* navigation-bar-body */
+.list{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(2, 33, 42, 0.926);
+    height: 40px;
+    padding: 10px 30px;
+    
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.all i{
+    font-size: x-large;
+}
+.all p{
+    margin-left: 10px;
+}
+
+/* main */
+.container {
+    background-color: rgba(239, 143, 18, 0);
+    height: 500px;
+    position: absolute;
+    display: flex;
+    top: 350px;
+  }
+.box{
+    width: 360px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+.image{
+    width: 150px;
+    height: 100px;
+    margin: 10px 5px 20px;
+}
+.logo:hover, 
+.location:hover, 
+.search-box:hover, 
+.language:hover, 
+.Account:hover, 
+.Orders:hover, 
+.cart:hover,
+.list p:hover,
+.container img:hover
+{
+    border: 2px solid rgb(232, 230, 230);
+    /* padding: 5px; */
+}
