@@ -1,42 +1,30 @@
 import os
 
-html_content = """
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>JAY SHREE RAM</h1>
-</body>
-</html>"""
-css_content = """
-body {
-    font-family: sans-serif;
-}
+# where to create folders
+path = "D:/My Code Base/MERN-2"
 
-h1 {
-   color: red;
-}
-"""
+# files content
+html_content = """<h1>hellow world"""
+css_content = """h1 { color: red; }"""
+js_content = """console.log("hello world!")"""
 
 
-def generate_html_file(filename, content):
+def generate_file(filename, content):
     with open(filename, "w") as f:
         f.write(content)
 
 
-def generate_css_file(filename, content):
-    with open(filename, "w") as f:
-        f.write(content)
+for i in range(1, 101):
+    folder_name = f"day-{i}"
+    # crating folder
+    folder_path = f"{path}/{folder_name}"
+    os.mkdir(folder_path)
 
+    # creating files
+    html_file = f"{folder_path}/index.html"
+    css_file = f"{folder_path}/style.css"
+    js_file = f"{folder_path}/script.js"
 
-# Iterate over the range of directories you want to remove
-for i in range(21, 31):
-    path = "D:/My Code Base/connect shiksha learnins/learnings/"
-    directory = os.path.join(path, f"{i}", "task")
-    os.mkdir(directory)
-    generate_html_file(f"{directory}/index.html", html_content)
-    generate_css_file(f"{directory}/style.css",  css_content)
+    generate_file(html_file, html_content)
+    generate_file(css_file, css_content)
+    generate_file(js_file, js_content)
