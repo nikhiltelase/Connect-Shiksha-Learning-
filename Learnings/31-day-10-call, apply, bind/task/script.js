@@ -1,5 +1,5 @@
 // ------------call--------------
-//Example-1
+// //Example-1
 // const person = {
 //     info: function(){
 //         console.log( `Age of ${this.name} is ${this.age} years.`);
@@ -14,7 +14,7 @@
 // //Example-2
 // const user1 = {fname: 'shyam', lname: 'sharma'}
 // const user2 = {fname: 'ram', lname: 'varma'}
-// // ek function bana ke sabhi user ko greet message karnge
+// // ek function bana ke sabhi user ko greet message karenge
 // function greet(message){
 //     console.log(`${message} ${this.fname} ${this.lname}.`);
 // }
@@ -22,34 +22,30 @@
 // greet.call(user1, "Hello")
 // greet.call(user2, "kaisa ho")
 
-// const group = 
+
 // ------------apply------------
-// Example-1
+// // Example-1
 // const person = {
 //     fullName: function(){
 //         return this.fname +" "+ this.lname
 //     }
 // }
 // const person1 = {fname: 'ram', lname: 'das'}
-// const person2 = {fnaem: 'lacky', lname: 'tiwari'}
+// const person2 = {fname: 'lacky', lname: 'tiwari'}
 
 // const fullname = person.fullName.apply(person1);
 // console.log(fullname)
 
 // //Example-2
-// const user1 = {name: 'nikhil', profastion: "student"}
-// const user2 = {name: 'ram', profastion: "developer"}
+// const user1 = {name: 'nikhil', profession: "student"}
+// const user2 = {name: 'ram', profession: "developer"}
 
 // function say(message){
 //     console.log(`${message} ${this.name} ji.`)
 // }
 
-// say.apply(user1, ["Namste"])
+// say.apply(user1, ["Namaste"])
 // say.apply(user2, ["hello"])
-
-// The difference is:
-// The call() method takes arguments separately.
-// The apply() method takes arguments as an array.
 
 // ------------bind--------------
 //Example-1
@@ -59,7 +55,6 @@ const person1 = {
     fullname: function(){
         return this.fname + " " + this.lname
     }
-
 }
 const person1Fullname = person1.fullname()
 console.log(person1Fullname)
@@ -79,17 +74,17 @@ const student1 = {
         cs: 85
     },
     getPercentage : function(){
-        const subjectLenght = Object.keys(this.marks).length;
+        const subjectLength = Object.keys(this.marks).length;
         var total = 0;
         for(i in this.marks){
             total += this.marks[i]
         }
-        let p = total/subjectLenght
+        let p = total/subjectLength
         return p
     }
 }
-let studen1Percentage = student1.getPercentage()
-console.log(studen1Percentage)
+let student1Percentage = student1.getPercentage()
+console.log(student1Percentage)
 
 const student2 = {
     name: "nikhil",
@@ -101,7 +96,6 @@ const student2 = {
         cs: 90
     },
 }
-// borowing percentage fuction from studen1
-let studen2Percentage = student1.getPercentage.bind(student2)
-console.log(studen2Percentage())
-
+// borrowing percentage function from student1
+let student2Percentage = student1.getPercentage.bind(student2)
+console.log(student2Percentage())
