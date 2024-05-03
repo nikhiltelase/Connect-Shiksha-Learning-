@@ -22,7 +22,6 @@
 // greet.call(user1, "Hello")
 // greet.call(user2, "kaisa ho")
 
-// const group = 
 // ------------apply------------
 // Example-1
 // const person = {
