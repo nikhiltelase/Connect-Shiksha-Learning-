@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bulb-container{
+    display: flex;
+}
+.bulb{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid;
+}
+#bulb1{
+    background-color: yellow;
+}
+.switch{
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: large;
+    background-color: rgb(253, 233, 233);
+    padding: 2%;
+}

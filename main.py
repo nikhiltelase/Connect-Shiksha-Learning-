@@ -1,7 +1,7 @@
 import os
 
 # where to create folders
-path = "D:/My Code Base/MERN-2"
+path = "D:\My Code Base\connect shiksha learnings\Learnings"
 
 # files content
 html_content = """<h1>hellow world"""
@@ -14,17 +14,17 @@ def generate_file(filename, content):
         f.write(content)
 
 
-for i in range(1, 101):
-    folder_name = f"day-{i}"
+for i in range(35, 41):
+    folder_name = i
     # crating folder
-    folder_path = f"{path}/{folder_name}"
-    os.mkdir(folder_path)
+    folder_path = f"{path}/{folder_name}/task"
+    # os.mkdir(folder_path)
 
     # creating files
     html_file = f"{folder_path}/index.html"
     css_file = f"{folder_path}/style.css"
     js_file = f"{folder_path}/script.js"
 
-    generate_file(html_file, html_content)
+    # generate_file(html_file, html_content)
     generate_file(css_file, css_content)
     generate_file(js_file, js_content)
