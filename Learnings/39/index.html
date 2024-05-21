@@ -1,12 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>JAY SHREE RAM</h1>
+
+<header>
+  <div class="container">
+    <h1 class="logo">My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="social-icons">
+      <a href="#" class="social-icon"><img src="f.png" alt="Facebook" width="25px"></a>
+      <a href="#" class="social-icon"><img src="g.png" alt="Twitter" width="25px"></a>
+      <a href="#" class="social-icon"><img src="l.png" alt="Instagram" width="25px"></a>
+    </div>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Showcasing my work and skills</p>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula odio at arcu aliquam malesuada.</p>
+    <img src="g.png" alt="About Me" class="about-image">
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <img src="f.png" alt="Project 1" class="project-image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <img src="l.png" alt="Project 2" class="project-image">
+      <p>Integer quis lectus nec sem sagittis lacinia id eget justo.</p>
+    </div>
+    <div class="project">
+      <h3>Project 3</h3>
+      <img src="g.png" alt="Project 3" class="project-image">
+      <p>Vivamus nec nisi eget tortor fermentum aliquam nec at mi.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Email: info@example.com</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    &copy; 2024 My Portfolio
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
