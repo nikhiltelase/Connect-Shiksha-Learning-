@@ -1,4 +1,4 @@
-/* i{
+i{
     color: red;
     font-size: 15px;
     border: 1px solid black;
@@ -8,7 +8,7 @@
     overflow: hidden;
     text-align: center;
     background-color: rgb(205, 243, 230);
-    vertical-align: middle;
+    vertical-align:middle;
     padding: 2px;
     
 
@@ -27,7 +27,7 @@ a:visited{
 }
 a:hover{
     text-decoration: underline;
-} */
+}
 
 * {
     padding: 0;
