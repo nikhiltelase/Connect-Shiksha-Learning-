@@ -31,7 +31,7 @@ function f(name) {
 
 // =================== Project 1 ==========================
 
-// Returns a random integer from 0 to 10:2
+// Returns a random integer from 0 to 10
 let randomNumber = Math.floor(Math.random() * 11) ;
 console.log(randomNumber);
 

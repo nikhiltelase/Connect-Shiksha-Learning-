@@ -86,6 +86,6 @@ const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
 
 // ================= forEach =============
 
-// fruits.forEach(function (fruit, index) {
-//   console.log(`index ${index} : ${fruit}`);
-// });
+fruits.forEach(function (fruit, index) {
+  console.log(`index ${index} : ${fruit}`);
+});

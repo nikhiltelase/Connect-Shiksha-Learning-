@@ -25,11 +25,11 @@ let student = {
 
 // for in loop {}
 
-// for(let abc in student){
-//     console.log(abc + ": " + student[abc])
-// }
+for(let abc in student){
+    console.log(abc + ": " + student[abc])
+}
 
-// console.log(student.name + " " + student.lName)
+console.log(student.name + " " + student.lName)
 
 // console.log(student.getFullName())
 
@@ -54,8 +54,8 @@ let student = {
 
 // ============ destructing ================
 
-console.log(student.name)
+// console.log(student.name)
 
-const { name } = student;
+// const { name } = student;
 
-console.log(name);
+// console.log(name);
