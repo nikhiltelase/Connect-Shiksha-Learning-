@@ -1,9 +1,0 @@
-#wordInput {
-    width: 300px;
-    height: auto;
-    font-size: 16px;
-    padding: 10px;
-    box-sizing: border-box;
-    white-space: pre-wrap; /* Preserve white spaces */
-    overflow-wrap: break-word; /* Allow long words to break */
-}
