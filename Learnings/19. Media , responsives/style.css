@@ -38,12 +38,3 @@ body {
     }
   }
   
-  /* mobile */
-  @media screen and (max-width: 500px) {
-    body {
-      background-color: bisque;
-    }
-    img {
-      border-color: aqua;
-    }
-  }
