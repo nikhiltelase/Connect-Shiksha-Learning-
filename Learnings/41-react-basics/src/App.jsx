@@ -1,10 +1,13 @@
+import '.app.css'
 
 function App() {
+  let count = 1
 
   return (
     <>
-      <h1>Jay shree ram</h1>
-      <h2>Hello nikhl kaise ho </h2>
+      <span>{count}</span>
+      <button>incriase value</button>
+      <button>decrise value</button>
     </>
   )
 }
