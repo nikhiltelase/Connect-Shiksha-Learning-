@@ -1,5 +1,6 @@
 import "./app.css";
 import { useState } from "react";
+import My from "./MyName"
 
 function App() {
   const [count, setfirst] = useState(1);
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    <My />
       <main className="main">
         <div className="container">
           <h1>React Start</h1>
