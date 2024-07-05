@@ -17,7 +17,7 @@ function FormValadation() {
         setpasserror('')
         setsuccess('')
         let formStatus = false
-        
+        //validate email
         if (!email) {
             setemailerror('email is required')
             formStatus = false
@@ -26,24 +26,24 @@ function FormValadation() {
                 formStatus = true
             }else{
                 setemailerror('please enter write email')
+                formStatus = false
             }
             
         }
-
+        //validate password
         if (!password) {
             setpasserror('password is required')
             formStatus = false
         }else{
-            if (password.length <= 8) {
-                console.log('pass small')
+            if (password.length >= 8) {
+                formStatus = true
+            }else{
                 setpasserror('password lenght is 8 or morethan 8 required')
                 formStatus = false
-            }else(
-                formStatus = true
-            )
+            }
             
         }
-
+        //api call
         if(formStatus) {
             setsuccess('Submited succefully')
         }
@@ -53,7 +53,7 @@ function FormValadation() {
         <>
             <main>
                 <div className='form-container'>
-                    <h1>From valadation</h1>
+                    <h1 className='heading'>From valadation</h1>
                     <form onSubmit={handelSubmit}>
                         <input type='text' placeholder='Email' onChange={(e) => (setemail(e.target.value))} autoFocus/> <br />
                         <p className='error'>{emailError}</p>
