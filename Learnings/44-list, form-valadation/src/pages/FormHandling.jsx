@@ -24,7 +24,8 @@
 //       <input type="email" name="email" placeholder="Enter Email" /> <br />
 //       <br />
 //       <input type="number" name="number" placeholder="mobile" />
-//       <br /> <br />
+//       <br /> 
+//       <br />
 //       <button type="submit">Submit</button>
 //     </form>
 //   );
