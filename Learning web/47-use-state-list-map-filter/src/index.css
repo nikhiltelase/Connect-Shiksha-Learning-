@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.popup{
+    background-color: rgba(0, 0, 0, 0.851);
+}
