@@ -1,7 +1,7 @@
 import os
 
 # where to create/edit folders
-path = "D:/My Code Base/connect shiksha learnings/Learnings"
+path = "D:/My Code Base/connect shiksha learnings/Learning web"
 
 # CHANGING FOLDER NAME
 # all_folders = os.listdir(path)
@@ -43,16 +43,16 @@ def generate_file(filename, content):
         f.write(content)
 
 
-for i in range(48, 50):
+for i in range(50, 61):
     folder_name = i
     # CRATING FOLDER
     folder_path = f"{path}/{folder_name}"
-    # os.mkdir(folder_path)
+    os.mkdir(folder_path)
 
     # CREATING FILES
-    html_file = f"{folder_path}/index.html"
-    css_file = f"{folder_path}/style.css"
-    js_file = f"{folder_path}/script.js"
+    # html_file = f"{folder_path}/index.html"
+    # css_file = f"{folder_path}/style.css"
+    # js_file = f"{folder_path}/script.js"
 
     # generate_file(html_file, html_content)
     # generate_file(css_file, css_content)
@@ -60,6 +60,6 @@ for i in range(48, 50):
 
     # DELETE FILES AND FOLDERS
     # os.rmdir(folder_path)
-    os.remove(html_file)
+    # os.remove(html_file)
     # os.remove(css_file)
     # os.remove(js_file)
