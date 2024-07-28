@@ -1,0 +1,26 @@
+.custom-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    color: rgb(223, 50, 50);
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .custom-prev-arrow {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .custom-next-arrow {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  

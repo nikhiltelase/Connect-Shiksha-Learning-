@@ -1,0 +1,1390 @@
+[
+    {
+        "id": 1,
+        "name": "Smart Watch",
+        "price": 3999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/g/t/t/42-t500-pro-max-69-android-ios-gamesir-yes-original-imahf3c2twrcgdyx.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/s/d/r/-original-imahfxp84qgzxqgz.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/7/j/q/49-s9-ultra-gold-touch-watch-25-new-features-music-camera-original-imah2e2t3a9wk7f8.jpeg?q=70"
+        ],
+        "category": "Electronics",
+        "description": "A smart watch with multiple health-tracking features and customizable watch faces.",
+        "specification": "Battery Life: 24 hours, Waterproof: Yes, Connectivity: Bluetooth, GPS"
+    },
+    {
+        "id": 2,
+        "name": "Wireless Earbuds",
+        "price": 1799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/q/o/y/-original-imagp6sk8tjvj2rh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/t/n/-original-imagp6sk8guyryph.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/y/s/w/-original-imagp6skc25emu5t.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/r/v/2/-original-imagp6sketwydzkb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/v/l/f/-original-imagp6skvbknz8bb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/o/m/o/-original-imagp6skj4ffjgbk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/a/c/y/-original-imagp6skhaduqecm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/c/v/i/-original-imagp6skkjrmw4mu.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "Comfortable wireless earbuds with excellent sound quality and noise cancellation.",
+        "specification": "Battery Life: 5 hours, Waterproof: No, Connectivity: Bluetooth"
+    },
+    {
+        "id": 3,
+        "name": "4K TV",
+        "price": 9999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/television/b/n/l/-original-imagtteyywxpyw5x.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/television/1/e/s/-original-imah2m85gj2t4xzs.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/television/z/f/y/-original-imagxaygvfpjcjfn.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/television/s/8/c/-original-imah2fk5n3vtbfsf.jpeg?q=70"
+        ],
+        "category": "Electronics",
+        "description": "A 55-inch 4K Ultra HD smart TV with HDR support and built-in streaming apps.",
+        "specification": "Resolution: 3840 x 2160, HDR: Yes, Connectivity: HDMI, Wi-Fi"
+    },
+    {
+        "id": 4,
+        "name": "Laptop",
+        "price": 19999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/y/d/t/vayu-book-thin-and-light-laptop-axl-original-imagrk76vjbjskag.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/j/0/v/-original-imah2n9kfnqz3a5s.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/r/a/h/um3402ya-km541ws-thin-and-light-laptop-asus-original-imahf7yvdbtfzcut.jpeg?q=70"
+        ],
+        "category": "Electronics",
+        "description": "A powerful laptop with 16GB RAM and 512GB SSD, perfect for work and gaming.",
+        "specification": "Processor: Intel i7, RAM: 16GB, Storage: 512GB SSD, Graphics: NVIDIA GTX 1650"
+    },
+    {
+        "id": 5,
+        "name": "Bluetooth Speaker",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/z/o/u/-original-imahfg2nqbzvczvx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/p/0/o/-original-imahfg2nnjdevugz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/d/q/o/-original-imahfg2nfjzp3zxb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/t/q/v/-original-imahfg2nxdjvydsf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/b/1/o/-original-imahfg2nnd7a5hku.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/p/x/7/-original-imagsjnv6t744xzd.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A portable Bluetooth speaker with deep bass and 10-hour battery life.",
+        "specification": "Battery Life: 10 hours, Waterproof: Yes, Connectivity: Bluetooth"
+    },
+    {
+        "id": 6,
+        "name": "Gaming Console",
+        "price": 7999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gamingconsole/a/x/n/0-g5-500-in-1-colorful-handheld-mini-retro-game-box-also-connect-original-imagrqxznqngeydt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gamingconsole/t/x/h/0-g5-500-in-1-colorful-handheld-mini-retro-game-box-also-connect-original-imagrqxzjzebjjwb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gamingconsole/z/5/s/0-g5-500-in-1-colorful-handheld-mini-retro-game-box-also-connect-original-imagrqxzjpfhnsxt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gamingconsole/p/v/u/0-g5-500-in-1-colorful-handheld-mini-retro-game-box-also-connect-original-imagrqxzegz8x8gc.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gamingconsole/y/3/f/0-g5-500-in-1-colorful-handheld-mini-retro-game-box-also-connect-original-imagrqxz8gjqwvqq.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A next-gen gaming console with 4K gaming support and a large game library.",
+        "specification": "Resolution: 4K, Storage: 1TB, Connectivity: HDMI, Wi-Fi"
+    },
+    {
+        "id": 7,
+        "name": "Digital Camera",
+        "price": 10999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/k3rmm4w0/point-shoot-camera/f/n/v/kids-point-and-shoot-digital-camera-point-and-shoot-kids-point-original-imafknpazf7dhses.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k0zlsi80/camera/2/s/9/dkian-sa-digital-kids-camera-20mp-1080p-with-32gb-memory-card-original-imafknnvzutdhbvs.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k0zlsi80/camera/2/s/9/dkian-sa-digital-kids-camera-20mp-1080p-with-32gb-memory-card-original-imafknnqpgdfk2fg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/camera/k/j/k/sa-digital-kids-camera-20mp-1080p-with-32gb-memory-card-original-imahy5c8gnvzy2wf.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A high-resolution digital camera with 24.2MP sensor and 4K video recording.",
+        "specification": "Resolution: 24.2MP, Video: 4K, Connectivity: Wi-Fi, Bluetooth"
+    },
+    {
+        "id": 8,
+        "name": "Tablet",
+        "price": 6599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/g/x/g/-original-imagz6zfjskzxg55.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/8/i/q/-original-imaguyffv34ghmky.jpeg?q=70"
+        ],
+        "category": "Mobiles & Tablets",
+        "description": "A lightweight tablet with a 10.5-inch display and 64GB storage.",
+        "specification": "Display: 10.5-inch, Storage: 64GB, Connectivity: Wi-Fi, Bluetooth"
+    },
+    {
+        "id": 9,
+        "name": "Smartphone",
+        "price": 13999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/k/l/edge-50-fusion-pb300001in-motorola-original-imahywzpfd2jh9ep.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/4/z/-original-imahyxj4zs583ste.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/z/w/-original-imahyxj4st5kzgrd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/q/h/edge-50-fusion-pb300001in-motorola-original-imahywzpw4uhhbdq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/u/l/t/edge-50-fusion-pb300001in-motorola-original-imahywzpgjxuz7ch.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/v/5/c/-original-imahyxj45xg3qpyk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/f/z/-original-imahyxj4cggyfzqd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/m/h/-original-imahyxj497qaqhfw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/d/n/p/-original-imahyxj4uyuhavhn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/3/e/t/edge-50-fusion-pb300001in-motorola-original-imahywzphz7vzycf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/f/d/b/edge-50-fusion-pb300001in-motorola-original-imahywzpxvhdjerr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/7/p/edge-50-fusion-pb300001in-motorola-original-imahywzpqesequjg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/a/e/edge-50-fusion-pb300001in-motorola-original-imahywzpdckptmgu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/2/q/l/edge-50-fusion-pb300001in-motorola-original-imahywzp5mgs5wnw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/d/q/edge-50-fusion-pb300001in-motorola-original-imahywzpgbpmtruz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/v/h/edge-50-fusion-pb300000in-motorola-original-imahywzzabdaypdp.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/u/y/-original-imahyxj4yghrmumg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/w/b/-original-imahyxj4fc6rard2.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/j/o/w/-original-imahyxj4vuwqjpqg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/y/w/k/-original-imahyxj4rzncjhcc.jpeg?q=70&crop=false"
+        ],
+        "category": "Mobiles & Tablets",
+        "description": "A high-end smartphone with a 6.7-inch display and 128GB storage.",
+        "specification": "Display: 6.7-inch, Storage: 128GB, Camera: 48MP, Connectivity: 5G, Wi-Fi"
+    },
+    {
+        "id": 10,
+        "name": "Bluetooth Headphones",
+        "price": 2399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/i/w/l/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imaghf8vdhga5xee.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/f/m/e/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2yukfvxcf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/1/e/k/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g29hu4kb6h.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/c/l/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2hchgkcgm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/n/z/m/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2shrvkg6z.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/x/3/a/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g27wc3y7ad.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/8/p/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g26qgxzfhe.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/e/l/x/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2tdgaqfrd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/i/t/5/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2pmgv2v3x.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "Over-ear Bluetooth headphones with noise-cancellation and 20-hour battery life.",
+        "specification": "Battery Life: 20 hours, Noise Cancellation: Yes, Connectivity: Bluetooth"
+    },
+    {
+        "id": 11,
+        "name": "Designer Dress",
+        "price": 1599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/t/o/w/xxl-7191-sheetal-associates-original-imaguu9rhtxmfkhu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/e/l/x/xxl-7191-sheetal-associates-original-imaguu9rxxfgepdw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/2/t/o/xxl-7191-sheetal-associates-original-imaguu9rgv6zekcf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/u/p/3/xxl-7191-sheetal-associates-original-imaguu9r2kpjk3um.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/d/n/6/xxl-7191-sheetal-associates-original-imaguu9rcfcxqwzh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/m/r/f/xxl-7191-sheetal-associates-original-imaguu9r8vj7xy9p.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A beautiful designer dress perfect for evening events and parties.",
+        "specification": "Material: Silk, Size: S, M, L, XL, Color: Red, Blue, Black"
+    },
+    {
+        "id": 12,
+        "name": "Running Shoes",
+        "price": 1999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/r/e/m/-original-imagsfdvuffvqx4x.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/s/i/l/10-2031-blu-wht-44-bruton-blue-original-imagfmdubtgj8ebj-bb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4ssfww0/shoe/4/f/d/10-2031-blu-wht-44-bruton-blue-original-imagfmduq8wryy9w.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4ssfww0/shoe/j/9/h/10-2031-blu-wht-44-bruton-blue-original-imagfmdur6kqgyfy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4ssfww0/shoe/f/u/2/10-2031-blu-wht-44-bruton-blue-original-imagfmduzgzgfjyw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4ssfww0/shoe/6/n/1/10-2031-blu-wht-44-bruton-blue-original-imagfmdubzsd9gey.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4ssfww0/shoe/c/a/z/10-2031-blu-wht-44-bruton-blue-original-imagfmdup9tf56at.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "Comfortable and durable running shoes for daily workouts.",
+        "specification": "Material: Mesh, Size: 7, 8, 9, 10, Color: Black, White, Grey"
+    },
+    {
+        "id": 13,
+        "name": "Leather Jacket",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/l4iscy80/jacket/w/b/8/s-no-ryjkhd5046-ryker-original-imagfehvsk23guq6.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4iscy80/jacket/w/f/o/s-no-ryjkhd5046-ryker-original-imagfehvnyhyfggz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4iscy80/jacket/p/5/s/s-no-ryjkhd5046-ryker-original-imagfehvhfauxza6.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4iscy80/jacket/a/i/i/s-no-ryjkhd5046-ryker-original-imagfehvp46nkqxt.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A stylish leather jacket with a comfortable fit and modern design.",
+        "specification": "Material: Leather, Size: S, M, L, XL, Color: Black, Brown"
+    },
+    {
+        "id": 14,
+        "name": "Fitness Tracker",
+        "price": 1199,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/k/v/l/-original-imahyxqdw9baxj7h.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/a/p/y/-original-imah2vzzu7r2b6bw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/h/m/y/-original-imahyzyjqhx8mzwf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/x/p/n/-original-imahyzyj4saz9qfn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/q/h/j/-original-imahyzyj2qsq4pmr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/r/h/e/-original-imahyzyjb2nukghh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/m/q/v/-original-imahyxqdb3zchdvn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/b/k/v/-original-imahyxqdwypkcnfs.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/c/a/-original-imahyzyjgtkhfcyg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/g/z/-original-imahyzyjgfv5c38b.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/a/8/-original-imahyywbw6utg2c4.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/m/1/j/-original-imahyzyjsa96ahyz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/e/o/e/-original-imahyzyje8zrhezv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/x/l/k/-original-imahyzyj2sqftgpr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/2/k/k/-original-imahyxqd2tuxuyre.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/g/t/o/-original-imahyxqdpu4vmyee.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/6/r/o/-original-imahyzyjyhzxzdzp.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A fitness tracker with heart rate monitoring and sleep tracking features.",
+        "specification": "Battery Life: 7 days, Waterproof: Yes, Connectivity: Bluetooth"
+    },
+    {
+        "id": 15,
+        "name": "Coffee Maker",
+        "price": 1799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/coffee-maker/j/j/c/preethi-cafe-zest-cm-208-drip-cafe-original-imaehu4y2vyrezyx.jpeg?q=70"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A sleek coffee maker with a built-in grinder and programmable timer.",
+        "specification": "Capacity: 12 cups, Material: Stainless Steel, Power: 1000W"
+    },
+    {
+        "id": 16,
+        "name": "Sofa Set",
+        "price": 11999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/g/t/b/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hfyqjfvkv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/3/f/a/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hzvcqupy4.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/l/p/g/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hmpasexda.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/5/u/2/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3h4repdwbk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/s/k/5/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hqvj4evwb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/r/h/3/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hfxkhrvzw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/m/p/b/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hskdtyh2k.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-set/r/o/u/blue-velvet-3-1-1-crete-311-flipkart-perfect-homes-blue-grey-original-imah2z3hfzpkyz2q.jpeg?q=70&crop=false"
+        ],
+        "category": "Furniture",
+        "description": "A modern sofa set with comfortable cushions and stylish design.",
+        "specification": "Material: Fabric, Seats: 3, Color: Grey, Blue, Beige"
+    },
+    {
+        "id": 17,
+        "name": "Travel Backpack",
+        "price": 1399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/4/x/x/ashper-unisex-backpack-with-usb-port-and-rain-cover-w-095-laptop-original-imagmmjwhvxmhhqf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/e/0/u/-original-imahyjfhkh5bdnfb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/k/2/i/12-ashper-unisex-backpack-with-usb-port-and-rain-cover-14-w-095-original-imagmwf42avuzyf7.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/p/t/y/12-ashper-unisex-backpack-with-usb-port-and-rain-cover-14-w-095-original-imagq8ebga568qfz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/x/y/g/12-ashper-unisex-backpack-with-usb-port-and-rain-cover-14-w-095-original-imagq8eb8yjg3png.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/x/8/2/12-ashper-unisex-backpack-with-usb-port-and-rain-cover-14-w-095-original-imagq8ebywhrygxz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/backpack/q/o/g/12-ashper-unisex-backpack-with-usb-port-and-rain-cover-14-w-095-original-imagmwf4qpcgsags.jpeg?q=70&crop=false"
+        ],
+        "category": "Travel",
+        "description": "A durable and spacious travel backpack with multiple compartments.",
+        "specification": "Material: Nylon, Capacity: 40L, Color: Black, Grey, Green"
+    },
+    {
+        "id": 18,
+        "name": "Face Cream",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/moisturizer-cream/h/r/o/15-skarfix-plus-cream-with-kojic-acid-for-hyperpigmentation-original-imagu7k9yyh3aaz3.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/moisturizer-cream/s/i/u/100-barrier-repair-hydrating-face-cream-with-probiotic-original-imah2ywe2mvu89d3.jpeg?q=70"
+        ],
+        "category": "Beauty",
+        "description": "A moisturizing face cream with natural ingredients for glowing skin.",
+        "specification": "Volume: 50ml, Ingredients: Aloe Vera, Vitamin E"
+    },
+    {
+        "id": 19,
+        "name": "Organic Almonds",
+        "price": 399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/kuczmvk0/nut-dry-fruit/f/5/x/1-100-natural-premium-californian-almond-pouch-1-happilo-original-imag7hxs5uhajcjz.jpeg?q=70"
+        ],
+        "category": "Grocery",
+        "description": "A pack of organic almonds, perfect for a healthy snack.",
+        "specification": "Weight: 500g, Ingredients: 100% Organic Almonds"
+    },
+    {
+        "id": 20,
+        "name": "Air Fryer",
+        "price": 2599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/air-fryer/w/j/h/black-4-5-1500-polife-neo-havells-original-imahfbghagvbvfpx.jpeg?q=70"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A versatile air fryer with adjustable temperature and rapid air technology.",
+        "specification": "Capacity: 3.5L, Power: 1500W, Material: Plastic"
+    },
+    {
+        "id": 21,
+        "name": "Hair Dryer",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hair-dryer/h/e/1/professional-nhp-8215-nova-original-imahf2k3gc6rhwfr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hair-dryer/b/p/a/professional-nhp-8215-nova-original-imahf2k3g6w3zvyy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hair-dryer/i/j/d/professional-nhp-8210-nova-original-imahf2kfdrrp8hgy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hair-dryer/r/3/n/professional-nhp-8210-nova-original-imahf2kfd8pnpzr2.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hair-dryer/d/g/8/professional-nhp-8215-nova-original-imahf2k3ppbeuzjw.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "A powerful hair dryer with multiple heat settings and a cool shot button.",
+        "specification": "Power: 1800W, Settings: switch on-off "
+    },
+    {
+        "id": 22,
+        "name": "Refrigerator",
+        "price": 11999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/j/g/t/-original-imagw4snj5qxqpax.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/e/p/v/-original-imagy54dysbch9s2.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/m/0/m/-original-imagy54dt9qahbgh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/9/h/8/-original-imagy54dzjjyvcsh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/j/g/o/-original-imagy54ef8gzcbta.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/a/r/r/-original-imagyyp2uzxkrxwm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/q/j/k/-original-imagvbtqhzcqqpvq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/q/f/k/-original-imagvbtqzhhhwhaw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/j/5/o/-original-imagvbtqqjyrvfpf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/x/k/u/-original-imagvbtqupaefccd.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A spacious refrigerator with a large freezer and energy-efficient design.",
+        "specification": "Capacity: 400L, Energy Rating: 4 Star, Color: Silver"
+    },
+    {
+        "id": 23,
+        "name": "Running Treadmill",
+        "price": 7999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/i/a/u/-original-imah2y8hcsethm59.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/2/2/y/tdm-98-4hp-peak-usb-aux-connection-led-heart-rate-sensor-original-imah22wvyucqgwha.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/x/w/4/tdm-98-4hp-peak-usb-aux-connection-led-heart-rate-sensor-original-imah22wvwvbpyft4.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/v/o/x/tdm-98-4hp-peak-usb-aux-connection-led-heart-rate-sensor-original-imah22wvfjvzwyh3.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/e/r/p/tdm-98-4hp-peak-usb-aux-connection-led-heart-rate-sensor-original-imah22wvemz2qezt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/i/w/v/tdm-98-4hp-peak-usb-aux-connection-led-heart-rate-sensor-original-imah22wvhfxhnyae.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/treadmill/e/m/9/tdm-98-4hp-peak-usb-aux-connection-led-heart-rate-sensor-original-imah22wveg2pbccv.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A foldable treadmill with multiple speed settings and a heart rate monitor.",
+        "specification": "Max Speed: 12 km/h, Foldable: Yes, Display: LED"
+    },
+    {
+        "id": 25,
+        "name": "Office Chair",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/l4n2oi80/office-study-chair/o/n/q/-original-imagfhzyhernh7db.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/office-study-chair/a/j/1/1-microfiber-46-c104-cellbell-89-original-imah27rc4g2pfdvz.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/office-study-chair/d/1/n/1-foam-73-5-tscncoe001-ergosmart-by-the-sleep-company-126-original-imah2tvqsbzwyqua.jpeg?q=70"
+        ],
+        "category": "Furniture",
+        "description": "An ergonomic office chair with lumbar support and adjustable height.",
+        "specification": "Material: Mesh, Color: Black, Max Weight: 120kg"
+    },
+    {
+        "id": 26,
+        "name": "Yoga Mat",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sport-mat/4/m/n/eva-tpe-anti-slip-home-gym-exercise-workout-fitness-for-men-original-imah2fc3jdtgr9ag.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sport-mat/h/n/r/eva-tpe-anti-slip-home-gym-exercise-workout-fitness-for-men-original-imah2yxn8fjcscbj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sport-mat/i/f/w/100-eva-eco-friendly-mat-exercise-gym-mat-with-yoga-strap-4-24-original-imah2ywwx9jqmqgn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sport-mat/g/j/u/eva-tpe-anti-slip-home-gym-exercise-workout-fitness-for-men-original-imah2fc3vfxb48ey.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sport-mat/h/e/r/100-eva-eco-friendly-mat-exercise-gym-mat-with-yoga-strap-4-24-original-imah2ywwrqbbka7x.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sport-mat/p/k/e/100-eva-eco-friendly-mat-exercise-gym-mat-with-yoga-strap-4-24-original-imah2ywwrvucvfc3.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A non-slip yoga mat with comfortable cushioning and easy to clean.",
+        "specification": "Material: PVC, Thickness: 6mm, Color: Purple, Blue, Green"
+    },
+    {
+        "id": 27,
+        "name": "Wireless Keyboard",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/laptop-keyboard/d/c/3/bubble-max-sleek-wireless-silent-keys-auto-sleep-mode-2-4ghz-original-imagr5wuj6z7yrkf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/laptop-keyboard/k/b/v/bubble-max-sleek-wireless-silent-keys-auto-sleep-mode-2-4ghz-original-imagr5wucy5hfszv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/laptop-keyboard/p/k/z/bubble-max-sleek-wireless-silent-keys-auto-sleep-mode-2-4ghz-original-imagr5wuz2xyxgep.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/laptop-keyboard/s/f/b/bubble-max-sleek-wireless-silent-keys-auto-sleep-mode-2-4ghz-original-imagr5wubavpm3hw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/laptop-keyboard/y/u/a/bubble-max-sleek-wireless-silent-keys-auto-sleep-mode-2-4ghz-original-imagr5wug7du74ck.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A sleek wireless keyboard with a comfortable typing experience.",
+        "specification": "Connectivity: Bluetooth, Battery Life: 6 months, Color: Black"
+    },
+    {
+        "id": 28,
+        "name": "Men's Watch",
+        "price": 3999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/kzn17680/watch/j/l/n/1-221wdtg-timewear-men-original-imagbhryjdxnvrjz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/f/q/e/-original-imagz48kjhjwcd3h.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/j/4/h/-original-imaghny5vww7g5rg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/jyg5lzk0/watch/j/b/j/221wdtg-timewear-original-imafgz73w2y4xk8t.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/jyg5lzk0/watch/j/b/j/221wdtg-timewear-original-imafgz73vhjtvgmq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/x/q/f/-original-imaghny5b2fgxwxx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/jyg5lzk0/watch/4/p/w/224sdtg-timewear-original-imafgz2tchzhcxvg.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A stylish men's watch with a leather strap and water-resistant design.",
+        "specification": "Material: Stainless Steel, Water Resistant: Yes, Color: Black, Brown"
+    },
+    {
+        "id": 29,
+        "name": "Blender",
+        "price": 1199,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-blender/a/w/u/powerful-25mm-hybrid-motor-thermal-protection-and-versatile-original-imagwv5gp9egngsu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-blender/9/8/t/powerful-25mm-hybrid-motor-thermal-protection-and-versatile-original-imagws4yufwqhbfk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-blender/e/y/s/powerful-25mm-hybrid-motor-thermal-protection-and-versatile-original-imagwv5gkmcrc722.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-blender/g/d/d/powerful-25mm-hybrid-motor-thermal-protection-and-versatile-original-imagwv5g8hufhqfe.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-blender/k/b/y/powerful-25mm-hybrid-motor-thermal-protection-and-versatile-original-imagwv5gzpuzhzyb.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A powerful blender with multiple speed settings and a durable jar.",
+        "specification": "Power: 600W, Capacity: 1.5L, Material: Plastic, Stainless Steel"
+    },
+    {
+        "id": 30,
+        "name": "Necklace",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/jewellery-set/h/y/i/na-na-1-skr58123-suk-2-sukkhi-original-imagyudjhzwrycyx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/jewellery-set/x/b/e/na-na-1-skr58123-suk-2-sukkhi-original-imagy79hgxfw27xg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/jewellery-set/q/3/b/na-na-1-skr58123-suk-2-sukkhi-original-imagyudj4vazdzpz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/jewellery-set/r/4/t/na-na-1-skr58123-suk-2-sukkhi-original-imagyudjtvu2vz6q.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/jewellery-set/1/c/0/na-na-1-skr58123-suk-2-sukkhi-original-imagyudj869badar.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "An elegant necklace with a beautiful pendant, perfect for any occasion.",
+        "specification": "Material: Sterling Silver, Length: 18 inches, Color: Silver"
+    },
+    {
+        "id": 31,
+        "name": "Travel Suitcase",
+        "price": 2599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/suitcase/f/h/i/-original-imaghdrzhxsqdqxt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/a/7/3/-original-imagaqnvtetdhafb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/t/t/f/-original-imagaqnvafuzrzvh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/l/b/q/-original-imagaqnvwt6qtgph.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/x/a/h/-original-imagaqnvgtgc4pcz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/l/r/0/-original-imagaqnv4qbnrzcg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/8/h/f/-original-imagaqnvcawdwenj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/0/s/i/-original-imagaqnvjqvrmhed.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/a/p/d/-original-imagaqnv8grbfmp6.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/h/f/e/-original-imagaqnukbhpfp57.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kyj0vbk0/suitcase/h/s/x/-original-imagaqnvhyx3hrzy.jpeg?q=70&crop=false"
+        ],
+        "category": "Travel",
+        "description": "A durable travel suitcase with a hard shell and smooth-rolling wheels.",
+        "specification": "Material: Polycarbonate, Capacity: 100L, Color: Black, Blue"
+    },
+    {
+        "id": 32,
+        "name": "Organic Honey",
+        "price": 299,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/f/e/z/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyqzxcssrcq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/4/o/s/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyqnngudcyk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/b/d/a/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyq3h7mtzms.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/1/c/2/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyqqkanmzq4.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/7/w/4/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyqgqkps6h4.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/1/q/l/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyqxdwpm88m.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/honey/y/x/y/500-raw-organic-honey-certified-organic-sourced-from-himalayas-original-imagvgyq6dqmtsyd.jpeg?q=70&crop=false"
+        ],
+        "category": "Grocery",
+        "description": "Pure organic honey sourced from natural beehives.",
+        "specification": "Weight: 500g, Ingredients: 100% Organic Honey"
+    },
+    {
+        "id": 33,
+        "name": "Lipstick Set",
+        "price": 799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/7/1/c/travel-touch-up-kit-4-ttk-just-herbs-original-imagtpxa9hctvhzd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/l/5/p/travel-touch-up-kit-4-ttk-just-herbs-original-imagtpxawgxwczac.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/x/w/2/travel-touch-up-kit-4-ttk-just-herbs-original-imagtpxas6hvakhu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/d/q/6/-original-imagtqqcknfvfhhh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/p/w/c/travel-touch-up-kit-4-ttk-just-herbs-original-imagtpxacw3zvupj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/k/p/v/travel-touch-up-kit-4-ttk-just-herbs-original-imagtpxagg7jmznc.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "A set of five long-lasting lipsticks in various shades.",
+        "specification": "Shades: Red, Pink, Nude, Berry, Plum"
+    },
+    {
+        "id": 34,
+        "name": "Handbag",
+        "price": 1599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/hand-messenger-bag/d/b/2/blair-structured-handbag-with-adjustable-and-detachable-sling-original-imahy9gyzygdzcqs.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/kxgfzbk0/hand-messenger-bag/s/h/9/classic-handbag-for-girls-and-women-0033-hand-held-bag-aliza-original-imag9why4vqsgefp.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/kfoapow0/hand-messenger-bag/v/s/x/women-hand-bag-sgm-0110-handbag-sgm-fashion-original-imafw3727hmfnm4h.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/hand-messenger-bag/k/n/j/pu-leather-handbags-shoulder-hobo-bag-purse-with-long-strap-original-imagx333anx58b5k.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/sling-bag/1/a/j/super-combo-sm-luck-7-barbie-peach-2-11-5-super-combo-sm-luck-7-original-imahypdfacjzqrtd.jpeg?q=70"
+        ],
+        "category": "Fashion",
+        "description": "A stylish handbag with multiple compartments and a modern design.",
+        "specification": "Material: Faux Leather, Color: Black, Brown, Size: Medium"
+    },
+    {
+        "id": 35,
+        "name": "Electric Kettle",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-kettle/n/6/q/nkt-2750-nkt-2750-nova-original-imahf2kyxvx2ft6b.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-kettle/4/k/2/nkt-2750-nkt-2750-nova-original-imahf2kywqmhffuc.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-kettle/g/r/q/nkt-2750-nkt-2750-nova-original-imahf2kyfkc5vuyh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-kettle/v/g/k/nkt-2750-nkt-2750-nova-original-imahf2kyu7srnzah.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-kettle/e/d/p/nkt-2750-nkt-2750-nova-original-imahf2kytnypsbmv.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A quick-boil electric kettle with auto shut-off and a sleek design.",
+        "specification": "Capacity: 1.7L, Power: 1500W, Material: Stainless Steel"
+    },
+    {
+        "id": 36,
+        "name": "Mountain Bike",
+        "price": 7999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/7/7/3/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycphhsrdmpa.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/v/g/8/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycpzzumhsfy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/s/h/9/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycprdvfxzux.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/o/w/z/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycpdghhfwsf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/8/y/m/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycpawgtyhda.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/h/2/h/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycpfznyyh6m.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/q/b/c/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycp4vzzgggg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/r/5/s/squad-21-grey-orange-29-18-5-cradiac-121-21-gear-original-imah3ycppt5udnuz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/m/q/6/globetrotter-single-non-geared-front-suspension-dual-disc-26-18-original-imah3ycngwm4qzby.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/s/m/y/globetrotter-single-non-geared-front-suspension-dual-disc-26-18-original-imah3ycnpbhygqh3.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A rugged mountain bike with a lightweight frame and durable tires.",
+        "specification": "Frame: Aluminum, Gears: 21-speed, Wheel Size: 27.5 inches"
+    },
+    {
+        "id": 37,
+        "name": "Shaving Kit",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shaving-foam/y/j/u/300-charcoal-shaving-foam-infused-with-joboba-oil-pack-of-1-vi-original-imagw8f4gwrvztzz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shaving-foam/4/u/f/300-charcoal-shaving-foam-infused-with-joboba-oil-pack-of-1-vi-original-imagx68f3jh9j7nx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shaving-foam/a/y/m/300-charcoal-shaving-foam-infused-with-joboba-oil-pack-of-1-vi-original-imagx4bgzngpacxf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shaving-foam/u/j/4/300-charcoal-shaving-foam-infused-with-joboba-oil-pack-of-1-vi-original-imagx44engat7whf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shaving-foam/j/t/h/300-charcoal-shaving-foam-infused-with-joboba-oil-pack-of-1-vi-original-imagx68fqgvpshfa.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "A complete shaving kit with razor, brush, and shaving cream.",
+        "specification": "Components: Razor, Brush, Shaving Cream, Aftershave"
+    },
+    {
+        "id": 38,
+        "name": "Espresso Machine",
+        "price": 4999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/coffee-maker/3/s/f/supreme-espresso-coffee-maker-with-grinder-20-bars-semi-original-imagqkt5jbfhum67.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/coffee-maker/s/k/o/supreme-espresso-coffee-maker-with-grinder-20-bars-semi-original-imagqkt5h63c7zqh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/coffee-maker/f/f/z/supreme-espresso-coffee-maker-with-grinder-20-bars-semi-original-imagqkt5xhgmu6se.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/coffee-maker/t/q/v/supreme-espresso-coffee-maker-with-grinder-20-bars-semi-original-imagqkt5axachyf9.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/coffee-maker/c/q/7/supreme-espresso-coffee-maker-with-grinder-20-bars-semi-original-imagqkt5x9zbxyv8.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A high-quality espresso machine with a built-in grinder and frother.",
+        "specification": "Capacity: 1.5L, Power: 1450W, Material: Stainless Steel"
+    },
+    {
+        "id": 39,
+        "name": "Men's Sneakers",
+        "price": 1399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/l2arp8w0/shoe/g/i/g/10-rng-2021-blu-orng-44-bruton-blue-orange-original-imagdzcpzhscxwhg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l2arp8w0/shoe/v/m/g/10-rng-2021-blu-orng-44-bruton-blue-orange-original-imagdzcpwdwqpygg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/c/p/c/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imaghu8rd8jp6dga.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l4bn5ow0/shoe/i/e/w/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imagf94ghpctfczj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/a/q/h/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imaghu8ryyxuw2ta.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/3/i/r/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imaghu8rhbnek5gw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/i/p/e/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imaghu8rqgakgzew.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/q/6/g/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imagg7k9nqhhexzc.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/x/k/j/6-snk-2021-blu-orng-40-bruton-blue-orange-original-imaghu8rmzkz33ah.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "Comfortable and stylish sneakers for everyday wear.",
+        "specification": "Material: Canvas, Size: 8, 9, 10, 11, Color: White, Black"
+    },
+    {
+        "id": 40,
+        "name": "Smart Thermostat",
+        "price": 2599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/kziqvm80/electronic-hobby-kit/7/c/y/thermostat-for-incubating-hatching-and-brooding-with-ntc-sensor-original-imagbgctgxkkqzfd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kziqvm80/electronic-hobby-kit/m/9/g/thermostat-for-incubating-hatching-and-brooding-with-ntc-sensor-original-imagbgctzcgfsbtf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kziqvm80/electronic-hobby-kit/7/8/m/thermostat-for-incubating-hatching-and-brooding-with-ntc-sensor-original-imagbgctfq9hg6uz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kziqvm80/electronic-hobby-kit/y/t/n/thermostat-for-incubating-hatching-and-brooding-with-ntc-sensor-original-imagbgctkb7fdszh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kziqvm80/electronic-hobby-kit/n/t/n/thermostat-for-incubating-hatching-and-brooding-with-ntc-sensor-original-imagbgctxgcenpyf.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A smart thermostat with remote control and energy-saving features.",
+        "specification": "Connectivity: Wi-Fi, Compatibility: Alexa, Google Assistant"
+    },
+    {
+        "id": 41,
+        "name": "Electric Drill",
+        "price": 1799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-drill/3/q/v/35-1400w-heavy-duty-concrete-vibrator-13000-vpm-35mm-with-5-feet-original-imah28v7wasggcvw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-drill/b/p/o/35-1400w-heavy-duty-concrete-vibrator-13000-vpm-35mm-with-5-feet-original-imah28v7xsrwuzg8.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-drill/m/b/f/35-1400w-heavy-duty-concrete-vibrator-13000-vpm-35mm-with-5-feet-original-imah28v7etsyhgqf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-drill/b/9/q/35-1400w-heavy-duty-concrete-vibrator-13000-vpm-35mm-with-5-feet-original-imah28v7vbwy9wuy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-drill/k/p/7/35-1400w-heavy-duty-concrete-vibrator-13000-vpm-35mm-with-5-feet-original-imah28v7zzenkpz6.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A powerful electric drill with multiple speed settings and attachments.",
+        "specification": "Power: 500W, Speed: Variable, Includes: Drill bits, Attachments"
+    },
+    {
+        "id": 42,
+        "name": "Women's Sunglasses",
+        "price": 1199,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/2/d/1/free-size-com179-dervin-original-imagdd9sjwxumqtf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/8/y/8/free-size-com179-dervin-original-imagdd9szq7czysk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/i/a/x/free-size-com179-dervin-original-imagdd9stexnhket.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/u/1/u/free-size-com179-dervin-original-imagdd9sqbnybc39.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k62i5jk0/sunglass/d/g/v/50-ks7-dervin-original-imaext28cju6zzuw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k62i5jk0/sunglass/f/8/m/50-ks12-dervin-original-imafe6czxhahpv29.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "Stylish women's sunglasses with UV protection and a chic design.",
+        "specification": "Lens: Polarized, Frame: Plastic, Color: Black, Brown"
+    },
+    {
+        "id": 43,
+        "name": "Air Purifier",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/air-purifier/6/z/u/-original-imagpyf89wcz2zxz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/air-purifier/t/z/z/-original-imagpyf8be5wn4zv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/air-purifier/c/e/t/-original-imagpyf87hzcwuze.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/air-purifier/i/z/n/-original-imagpyf8fn2qc4mx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/air-purifier/y/c/s/18-pure-cool-link-air-purifier-20-6-5-krekls-original-imaghw9wwzsvbwwq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/air-purifier/p/g/z/-original-imagpyf8fgghymgz.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "An efficient air purifier with HEPA filter and quiet operation.",
+        "specification": "Coverage: 300 sq ft, Filter: HEPA, Noise Level: 20 dB"
+    },
+    {
+        "id": 44,
+        "name": "Travel Pillow",
+        "price": 399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/pillow/b/h/z/10-hip-gy-20-1-hip-gy-20-huzi-original-imah28v8nppxtbcx.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/pillow/8/m/r/10-9982-half-lumber-support-pillow-1-half-lumber-1-sleepsia-original-imahyzyfd6jrtayh.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/pillow/k/a/6/7-62-large-pillow-4-frey-gilson-original-imah28k7ntyjuzfe.jpeg?q=70"
+        ],
+        "category": "Travel",
+        "description": "A comfortable travel pillow with memory foam and adjustable support.",
+        "specification": "Material: Memory Foam, Cover: Removable, Color: Grey, Blue"
+    },
+    {
+        "id": 45,
+        "name": "Smart Light Bulb",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-lighting/l/k/c/9-1717-led-frendz-original-imah242fgpjexvhy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-lighting/l/m/3/9-1717-led-frendz-original-imah242fnqsguksm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-lighting/w/d/m/9-1717-led-frendz-original-imah242f53z9yssf.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A smart light bulb with adjustable brightness and color temperature.",
+        "specification": "Connectivity: Wi-Fi, Compatibility: Alexa, Google Assistant"
+    },
+    {
+        "id": 46,
+        "name": "Men's Wallet",
+        "price": 799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/j/x/s/nicolas-1-9-mw190br-9-wallet-hornbull-2-original-imahfsztkffr79sx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/e/b/9/nicolas-1-9-mw190br-9-wallet-hornbull-2-original-imahfsztefypdq32.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/0/u/p/nicolas-1-9-mw190br-9-wallet-hornbull-2-original-imahfsztv8bggm7b.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/r/o/t/nicolas-1-9-mw190br-9-wallet-hornbull-2-original-imahfszthdsw7hcb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/p/n/f/nicolas-1-9-mw190br-9-wallet-hornbull-2-original-imahfszthdskfgzp.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A sleek men's wallet with multiple card slots and RFID protection.",
+        "specification": "Material: Leather, Color: Black, Brown, Size: Standard"
+    },
+    {
+        "id": 47,
+        "name": "Rice Cooker",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/3/n/y/tiara-1-8l-tiara-rice-cooker-1-8-l-rice-maker-electric-kutchina-original-imah33vddmj5a6jy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/c/m/b/tiara-1-8l-tiara-rice-cooker-1-8-l-rice-maker-electric-kutchina-original-imah33vdygwjuvvh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/y/i/a/tiara-1-8l-tiara-rice-cooker-1-8-l-rice-maker-electric-kutchina-original-imah33vd4q9rhkkb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/x/z/o/tiara-1-8l-tiara-rice-cooker-1-8-l-rice-maker-electric-kutchina-original-imah33vd98qzzrzb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/5/l/i/tiara-1-8l-tiara-rice-cooker-1-8-l-rice-maker-electric-kutchina-original-imah33vdnmutkyf8.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "An easy-to-use rice cooker with a keep-warm function and non-stick pot.",
+        "specification": "Capacity: 1.8L, Power: 700W, Material: Non-stick"
+    },
+    {
+        "id": 48,
+        "name": "Digital Thermometer",
+        "price": 299,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/digital-thermometer/6/h/k/flexi-fast-10-seconds-fast-reading-for-kids-adults-digital-original-imagxff4ej7fth6y.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/digital-thermometer/l/q/6/flexi-fast-10-seconds-fast-reading-for-kids-adults-digital-original-imagxff4eu2tph5t.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/digital-thermometer/z/l/q/flexi-fast-10-seconds-fast-reading-for-kids-adults-digital-original-imagxff4zqytbwnx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/digital-thermometer/f/r/b/flexi-fast-10-seconds-fast-reading-for-kids-adults-digital-original-imagxff4hwbv58vb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/digital-thermometer/u/l/y/flexi-fast-10-seconds-fast-reading-for-kids-adults-digital-original-imagxff4yruppukc.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A digital thermometer with fast and accurate readings and a large display.",
+        "specification": "Response Time: 1 second, Accuracy: \u00c2\u00b10.2\u00c2\u00b0C, Battery: Included"
+    },
+    {
+        "id": 49,
+        "name": "Women's Scarf",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/l26hdow0/dupatta/s/v/l/2-25-meters-1-cotton-long-scarf-cum-mask-with-adjustable-size-original-imagdk7yy5mw2xr6.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l26hdow0/dupatta/j/t/p/2-25-meters-1-cotton-long-scarf-cum-mask-with-adjustable-size-original-imagdk7yydzjxpyu.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A stylish and warm scarf for women, perfect for winter.",
+        "specification": "Material: Wool, Length: 180cm, Color: Red, Blue, Grey"
+    },
+    {
+        "id": 50,
+        "name": "Camping Tent",
+        "price": 3999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/tent/2/p/0/6-person-for-camping-waterproof-outdoor-house-for-6-persons-tent-original-imahygpghnezhqhw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/tent/e/3/x/6-person-for-camping-waterproof-outdoor-house-for-6-persons-tent-original-imahygpg7uwjddej.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/tent/f/u/5/6-person-for-camping-waterproof-outdoor-house-for-6-persons-tent-original-imahygpgvzrvhmmz.jpeg?q=70&crop=false"
+        ],
+        "category": "Travel",
+        "description": "A spacious camping tent with waterproof design and easy setup.",
+        "specification": "Capacity: 4 people, Material: Polyester, Color: Green"
+    },
+    {
+        "id": 51,
+        "name": "Blender Bottle",
+        "price": 259,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/f/h/t/2100-blendlife-original-imagm5rgtqcj4bcp.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/p/6/m/2100-blendlife-original-imagm5rgkfchyka9.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/o/v/2/2100-blendlife-original-imagm5rgbypsrdg8.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/a/k/j/2100-blendlife-original-imagm5rgfygbdzjp.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/u/v/8/2100-blendlife-original-imagm5rgdsgphnh9.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A convenient blender bottle with a leak-proof lid and whisk ball.",
+        "specification": "Capacity: 28oz, Material: BPA-free Plastic, Color: Black, Blue"
+    },
+    {
+        "id": 52,
+        "name": "Women's Dress",
+        "price": 1599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/k/g/u/s-skk-648-flower-printed-green-dress-yeoh-original-imahf4p82xadchtr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/p/9/n/s-skk-648-flower-printed-green-dress-yeoh-original-imahf4p8nrzdtphx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/c/q/4/s-skk-648-flower-printed-green-dress-yeoh-original-imahf4p8crdpr32q.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/m/c/1/s-skk-648-flower-printed-green-dress-yeoh-original-imahf4p8hwrffxym.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/p/d/h/s-skk-648-flower-printed-green-dress-yeoh-original-imahf4p8e6x7kmjj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/2/2/x/s-skk-648-flower-printed-green-dress-yeoh-original-imahf4p8neywefak.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "An elegant women's dress with a flattering fit and beautiful design.",
+        "specification": "Material: Chiffon, Size: S, M, L, XL, Color: Blue, Pink, Green"
+    },
+    {
+        "id": 53,
+        "name": "Vacuum Cleaner",
+        "price": 1999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/j/k/y/-original-imagzuhvtnedeyxn.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/e/8/f/robot-vacuum-cleaner-s10-xiaomi-original-imahybufn8zfdeqj.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/h/i/y/-original-imagpyf7grpbsb2e.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/f/u/l/robot-vacuum-mop-2i-xiaomi-original-imagq52bhwxt9h3e.jpeg?q=70"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A powerful vacuum cleaner with multiple attachments and HEPA filter.",
+        "specification": "Power: 1200W, Capacity: 2L, Material: Plastic"
+    },
+    {
+        "id": 54,
+        "name": "Bluetooth Mouse",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/j/s/v/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nfrnvvvsz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/y/g/t/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nrffggdgd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/v/8/a/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4ndxvhzgrg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/o/e/j/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nkdqc5nf7.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/h/3/y/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nhz3rkhy9.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A sleek Bluetooth mouse with ergonomic design and long battery life.",
+        "specification": "Connectivity: Bluetooth, Battery Life: 12 months, Color: Black"
+    },
+    {
+        "id": 55,
+        "name": "Bamboo Cutting Board",
+        "price": 499,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cutting-board/m/j/a/yes-zw-bcb-1-zeinwap-original-imah2uuzhh43znfb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cutting-board/g/l/o/yes-zw-bcb-1-zeinwap-original-imah2uuzduhsxsbg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cutting-board/n/l/m/yes-zw-bcb-1-zeinwap-original-imah2uuzyzq2f7mk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cutting-board/e/b/y/yes-zw-bcb-1-zeinwap-original-imah2uuz8hgv6cjf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cutting-board/p/y/j/yes-zw-bcb-1-zeinwap-original-imah2uuznmvbrgjv.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A durable bamboo cutting board with a non-slip surface.",
+        "specification": "Material: Bamboo, Size: 18x12 inches, Color: Natural"
+    },
+    {
+        "id": 56,
+        "name": "Portable Charger",
+        "price": 799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/w/y/7/luxcell-b12-10000-por-2251-portronics-original-imagy9f85uhrybqm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/n/f/y/luxcell-b12-10000-por-2251-portronics-original-imagy9f8sfehgr5u.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/b/z/m/luxcell-b12-10000-por-2251-portronics-original-imagy9f8nnybs6a7.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/i/d/0/luxcell-b12-10000-por-2251-portronics-original-imagy9f8xhnrucqt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/e/y/i/luxcell-b12-10000-por-2251-portronics-original-imagy9f8cfczxw5p.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A high-capacity portable charger with fast charging and multiple ports.",
+        "specification": "Capacity: 20000mAh, Output: USB, USB-C, Color: Black"
+    },
+    {
+        "id": 57,
+        "name": "Men's Leather Belt",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/belt/a/d/m/34-ua-lb40-tmbk-19-34-ua-lb40-tmbk-19-34-belts-for-men-zaphod-original-imahyz64jpqycfay.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/belt/o/n/l/40-leather-belts-for-men-rdr-lb40-tmbk-120-40-belts-for-men-original-imahyz643rzvygfs.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/belt/b/u/3/34-ua-lb40-tmbk-19-34-ua-lb40-tmbk-19-34-belts-for-men-zaphod-original-imahyz64jcypjmzg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/belt/g/6/s/34-ua-lb40-tmbk-19-34-ua-lb40-tmbk-19-34-belts-for-men-zaphod-original-imahyz64fqxfef7z.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A classic men's leather belt with a sleek buckle and durable design.",
+        "specification": "Material: Leather, Color: Black, Brown, Size: S, M, L, XL"
+    },
+    {
+        "id": 58,
+        "name": "Smart Door Lock",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-door-lock/d/q/t/ozlk00951-speedy-original-imah2xbfmbrghkzb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-door-lock/w/u/d/ozlk00951-speedy-original-imah2xbfd5ggrjmn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-door-lock/z/o/s/ozlk00951-speedy-original-imah2xbfvha6hhcm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-door-lock/a/a/n/ozlk00951-speedy-original-imah2xbfj2w8ket6.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-door-lock/k/y/b/ozlk00951-speedy-original-imah2xbfd6pmhgxx.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A smart door lock with keyless entry and remote access features.",
+        "specification": "Connectivity: Wi-Fi, Battery Life: 6 months, Color: Silver"
+    },
+    {
+        "id": 59,
+        "name": "Noise-Cancelling Headphones",
+        "price": 3999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/i/w/l/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imaghf8vdhga5xee.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/h/g/u/xo3-gaming-earbuds-with-35ms-low-latency-13mm-drivers-50h-original-imagx8hzzxrrg235.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/t/g/f/-original-imahfcgwhe8m8ktp.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/a/v/z/-original-imagwmkfnyabtwhb.jpeg?q=70"
+        ],
+        "category": "Electronics",
+        "description": "Over-ear noise-cancelling headphones with superior sound quality.",
+        "specification": "Battery Life: 30 hours, Connectivity: Bluetooth, Color: Black"
+    },
+    {
+        "id": 60,
+        "name": "Gaming Mouse",
+        "price": 1199,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/j/s/v/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nfrnvvvsz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/y/g/t/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nrffggdgd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/v/8/a/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4ndxvhzgrg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/o/e/j/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nkdqc5nf7.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mouse/h/3/y/pureview-transparent-wireless-and-bluetooth-rechargeable-mouse-original-imahft4nhz3rkhy9.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A high-performance gaming mouse with customizable buttons and RGB lighting.",
+        "specification": "Connectivity: Wired, DPI: Up to 16000, Color: Black"
+    },
+    {
+        "id": 61,
+        "name": "Electric Toothbrush",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-toothbrush/f/j/o/fcs0066-caresmith-original-imagrwh644uqhbgh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-toothbrush/k/n/g/fcs0066-caresmith-original-imagrwh6gnbyzfnz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-toothbrush/h/u/8/fcs0066-caresmith-original-imagrwh6ceemszgy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-toothbrush/2/y/5/fcs0066-caresmith-original-imagrwh6xch59wma.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-toothbrush/8/9/o/fcs0066-caresmith-original-imagrwh6gjpgkny6.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "An electric toothbrush with multiple brushing modes and a timer.",
+        "specification": "Battery Life: 2 weeks, Modes: 5, Color: White"
+    },
+    {
+        "id": 62,
+        "name": "Non-Stick Cookware Set",
+        "price": 1999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cookware-set/w/6/t/3-splatter-finish-cookware-set-of-3-non-induction-bottom-original-imagt8egf2wzevgw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cookware-set/v/q/w/3-splatter-finish-cookware-set-of-3-non-induction-bottom-original-imagt8egxuvyexmk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cookware-set/b/4/p/3-splatter-finish-cookware-set-of-3-non-induction-bottom-original-imagt8eghcuzyjpa.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cookware-set/y/w/9/3-splatter-finish-cookware-set-of-3-non-induction-bottom-original-imagt8eg4bzhxsnh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cookware-set/9/d/2/3-splatter-finish-cookware-set-of-3-non-induction-bottom-original-imagt8egruyt9a5t.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "A set of non-stick cookware with pots, pans, and utensils.",
+        "specification": "Material: Aluminum, Coating: Non-stick, Color: Black"
+    },
+    {
+        "id": 63,
+        "name": "Wireless Charger",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/charging-pad/x/j/f/3-in-1-magnetic-wireless-charging-station-for-iphone-alarm-clock-original-imah2y4q3g2dyszn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/charging-pad/j/p/i/3-in-1-magnetic-wireless-charging-station-for-iphone-alarm-clock-original-imah2y4q7ggbctfq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/charging-pad/v/j/u/3-in-1-magnetic-wireless-charging-station-for-iphone-alarm-clock-original-imah2y4qgzhpdtmd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/charging-pad/z/5/7/3-in-1-magnetic-wireless-charging-station-for-iphone-alarm-clock-original-imah2y4qzsq6qf2b.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/charging-pad/x/e/d/3-in-1-magnetic-wireless-charging-station-for-iphone-alarm-clock-original-imah2y4qxmysmvpp.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A fast wireless charger compatible with most smartphones.",
+        "specification": "Output: 10W, Compatibility: Qi-enabled devices, Color: Black"
+    },
+    {
+        "id": 64,
+        "name": "Electric Scooter",
+        "price": 5999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/b/r/q/-original-imah2ay3ef87faet.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/a/n/p/-original-imah2n69hgde2rjj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/b/w/3/-original-imah2n69wk5gbzzh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/d/o/f/-original-imah2h49bhwf5gym.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/b/d/w/-original-imah28pzkumzunna.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/x/w/x/-original-imah28pztzbnrzhy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/8/g/w/-original-imah28pzmuj5fe4g.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/2/a/o/-original-imah2ay3abjmqjtn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/j/m/q/-original-imah2ay3ezxw8knf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/i/3/d/-original-imah2ay3fz6tcegy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/b/o/c/-original-imah2ay3uv5gkhga.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "A foldable electric scooter with a powerful motor and long battery life.",
+        "specification": "Max Speed: 25 km/h, Range: 30 km, Color: Black"
+    },
+    {
+        "id": 65,
+        "name": "Women's Jacket",
+        "price": 1999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/p/d/q/m-sys-4175-funday-fashion-original-imafp8uxzpc7acsh-bb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k6wiefk0/jacket/p/d/q/l-sys-4175-funday-fashion-original-imafp8r6a4qkyhfz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k6wiefk0/jacket/p/d/q/m-sys-4175-funday-fashion-original-imafp8rtzcwkq5e3.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k6wiefk0/jacket/p/d/q/m-sys-4175-funday-fashion-original-imafp8seytuvnheh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k6wiefk0/jacket/p/d/q/xl-sys-4175-funday-fashion-original-imafp8qtrwzj73zv.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A warm and stylish women's jacket with a modern design.",
+        "specification": "Material: Polyester, Size: S, M, L, XL, Color: Black, Red"
+    },
+    {
+        "id": 67,
+        "name": "Women's Boots",
+        "price": 1599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/i/r/e/4-hop-dimond-longwalk-black-original-imaghrcnkjdha2za.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/c/b/y/4-hop-dimond-longwalk-black-original-imaghrcnmy5h7gnq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/s/f/0/4-hop-dimond-longwalk-black-original-imaghrcnhukznjyr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/f/c/4/4-hop-dimond-longwalk-black-original-imaghrcnt9azndkt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/d/q/n/4-hop-dimond-longwalk-black-original-imaghrcnzztmzzgx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/d/p/5/4-hop-dimond-longwalk-black-original-imaghrcng7nwfzfg.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "Stylish and comfortable women's boots perfect for winter.",
+        "specification": "Material: Leather, Size: 6, 7, 8, 9, Color: Brown, Black"
+    },
+    {
+        "id": 70,
+        "name": "Face Mask Set",
+        "price": 399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/combo-kit/3/1/g/travel-size-valentine-s-coffee-detan-facial-kit-gift-set-of-5-original-imagxx6g7bayegf5.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/face-pack/z/b/s/180-face-sheet-mask-for-men-women-deep-cleansing-skin-original-imahfyjmj8ffq4sh.jpeg?q=70"
+        ],
+        "category": "Beauty",
+        "description": "A set of hydrating and rejuvenating face masks for healthy skin.",
+        "specification": "Includes: 10 masks, Ingredients: Aloe Vera, Hyaluronic Acid"
+    },
+    {
+        "id": 72,
+        "name": "Baby Stroller",
+        "price": 3999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/612/612/k6wiefk0/stroller-pram/z/z/a/caramel-baby-stroller-with-5-point-safety-harness-and-reversible-original-imafp95gsdztmff2.jpeg?q=70"
+        ],
+        "category": "Top Deals",
+        "description": "A lightweight and foldable baby stroller with multiple recline positions.",
+        "specification": "Weight Capacity: 25kg, Material: Aluminum, Color: Grey"
+    },
+    {
+        "id": 73,
+        "name": "Smart Speaker",
+        "price": 1999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/smart-speaker/o/k/j/craze-mp3-music-speaker-in-built-mic-with-voice-assistance-save-original-imahywq8sz5q5rwj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/smart-speaker/a/x/4/craze-mp3-music-speaker-in-built-mic-with-voice-assistance-save-original-imahywq7fssx6j6b.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/smart-speaker/v/5/p/craze-mp3-music-speaker-in-built-mic-with-voice-assistance-save-original-imahywq8gvne3fdw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/smart-speaker/6/k/k/craze-mp3-music-speaker-in-built-mic-with-voice-assistance-save-original-imahywq7k4snhmfd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/smart-speaker/s/z/o/craze-mp3-music-speaker-in-built-mic-with-voice-assistance-save-original-imahywq7smf39p3e.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "A smart speaker with voice control and high-quality sound.",
+        "specification": "Compatibility: Alexa, Google Assistant, Connectivity: Wi-Fi, Bluetooth"
+    },
+    {
+        "id": 74,
+        "name": "Women's Handbag",
+        "price": 1599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/z/8/8/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdhdutxr9s3.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/4/a/f/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdh2k4qvsgc.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/g/l/p/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdhftaq5mhz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/a/d/x/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdhztyzkzpp.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/3/h/v/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdhgcfxw7kg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/w/s/l/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdhj9pymp7h.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-messenger-bag/4/i/f/royal-indian-peacock-motif-women-s-office-bag-4-zob01-ripm81-original-imahyrdhhx7zxbjt.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "A stylish women's handbag with spacious compartments and a modern design.",
+        "specification": "Material: Faux Leather, Color: Black, Brown, Size: Medium"
+    },
+    {
+        "id": 75,
+        "name": "Electric Rice Cooker",
+        "price": 999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/n/p/a/carlo-ace-carlo-ace-single-pot-greenchef-original-imagx382rtuukunh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/c/4/k/carlo-ace-carlo-ace-single-pot-greenchef-original-imagx382hknkhzgj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/5/e/j/carlo-ace-carlo-ace-single-pot-greenchef-original-imagx382qfbhfhyn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/7/r/6/carlo-ace-carlo-ace-single-pot-greenchef-original-imagx382qjawgqwm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cooker/i/d/j/carlo-ace-carlo-ace-single-pot-greenchef-original-imagx382hcm5hgac.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "An electric rice cooker with a non-stick pot and automatic keep-warm function.",
+        "specification": "Capacity: 1.8L, Power: 700W, Material: Non-stick"
+    },
+    {
+        "id": 78,
+        "name": "Gaming Chair",
+        "price": 5999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gaming-chair/i/k/z/-original-imagtvmdnbxspxts.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gaming-chair/a/u/u/-original-imagtvmdfvyfxghr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gaming-chair/v/x/9/-original-imagtvmd8f9jthrk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gaming-chair/m/4/o/-original-imagsrxfnqa6q2yg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/gaming-chair/l/d/d/-original-imagsrxfucpxgk6g.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/bed-mattress/v/4/w/-original-imagx6hgcbzfzcvp.jpeg?q=70&crop=false"
+        ],
+        "category": "Furniture",
+        "description": "A comfortable gaming chair with ergonomic design and adjustable features.",
+        "specification": "Material: PU Leather, Max Weight: 150kg, Color: Black, Red"
+    },
+    {
+        "id": 81,
+        "name": "Smartphone Stand",
+        "price": 399,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mobile-holder/u/8/u/sticky-pad-wall-mounted-mobile-holder-storage-case-for-remote-original-imagr8fxq4t6gnxu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mobile-holder/n/o/v/sticky-pad-wall-mounted-mobile-holder-storage-case-for-remote-original-imagr8fxuphnvvpv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile-holder/t/t/h/stand-wall-mounted-stand-mobile-phone-holder-bracket-mobile-wall-original-imaguhxdzkbzzasj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mobile-holder/o/r/q/sticky-pad-wall-mounted-mobile-holder-storage-case-for-remote-original-imagr8fxtxrju6jf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile-holder/z/x/2/stand-wall-mounted-stand-mobile-phone-holder-bracket-mobile-wall-original-imaguhxdfmfdgzfy.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "Adjustable smartphone stand, perfect for hands-free usage.",
+        "specification": "Material: Aluminum, Color: Black, Adjustable Angles"
+    },
+    {
+        "id": 84,
+        "name": "Organic Face Cream",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/j/j/2/30-kumkumadi-tailam-rishikaherbals-serum-original-imahfa39qnrjtmxz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/7/l/l/30-kumkumadi-tailam-rishikaherbals-serum-original-imahfa39jukmgkjt.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/n/u/p/30-kumkumadi-tailam-rishikaherbals-serum-original-imahfa39h6j7jrwc.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/2/x/d/30-kumkumadi-tailam-rishikaherbals-serum-original-imahfa39a9cggck8.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/z/8/o/30-kumkumadi-tailam-rishikaherbals-serum-original-imahfa39qths3hwb.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "Hydrating organic face cream with natural ingredients.",
+        "specification": "Volume: 50ml, Ingredients: Aloe Vera, Vitamin E"
+    },
+    {
+        "id": 85,
+        "name": "Modern Sofa",
+        "price": 5999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/f/0/7/-original-imagtjkhtyxmngze.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/q/m/j/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrctngagdzk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/4/k/u/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrchqubntyz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/e/i/n/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrcgcyyy4hv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/d/t/e/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrczkuzp5ge.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/e/e/b/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrc95sernsv.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/d/2/t/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrczfn7kpym.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/y/g/y/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrcgvg7xrg5.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/recliner/c/j/q/81-28-1-seater-brown-73-66-suede-leather-jb-louis-rc1s-brown-original-imagkyrcq9rpfm9c.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/sofa-sectional/k/n/p/-original-imagx8utug6wqr7n.jpeg?q=70&crop=false"
+        ],
+        "category": "Furniture",
+        "description": "Comfortable modern sofa with stylish design.",
+        "specification": "Material: Fabric, Color: Grey, Dimensions: 200x90x80 cm"
+    },
+    {
+        "id": 87,
+        "name": "Organic Quinoa",
+        "price": 199,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/grain-millet/f/r/p/2-organic-quinoa-gluten-free-diet-food-for-weight-loss-2-quinoa-original-imagxfks6ucmhrvr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cereal-flake/q/h/6/1-8-chocolate-chunk-energy-bar-pack-of-6-organic-quinoa-1-5kg-original-imagnz6ugby5gsrn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/grain-millet/3/w/b/1-organic-quinoa-gluten-free-diet-food-for-weight-loss-1-quinoa-original-imagxn3qxgfkfyte.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cereal-flake/c/o/r/1-8-chocolate-chunk-energy-bar-pack-of-6-organic-quinoa-1-5kg-original-imagnz6uuybkq2zy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/grain-millet/l/d/n/3000-organic-quinoa-1-5kg-each-buy-1-get-1-free-certified-original-imagnshyzgxy4pbf.jpeg?q=70&crop=false"
+        ],
+        "category": "Grocery",
+        "description": "High-quality organic quinoa, perfect for healthy meals.",
+        "specification": "Weight: 500g, Certified Organic"
+    },
+    {
+        "id": 88,
+        "name": "Smartwatch",
+        "price": 3999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/n/h/q/-original-imagzv6hnnyepyad.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/3/f/q/-original-imahfcp5cjjhnjek.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/s/t/l/-original-imahfcp5gbvuzjve.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/0/k/0/-original-imahfcp55jhu7brw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/8/k/j/-original-imahfcp5b55gzkae.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/s/g/v/-original-imahfcp5k8cbgzyr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/e/n/-original-imahfcp5q6zmnggk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/d/q/n/-original-imahfcp5afzq6wrb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/x/e/o/-original-imahfcp5spjryqb6.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/j/e/y/-original-imahfcp5penpq5df.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/g/p/l/1-85-drift-android-ios-boult-yes-original-imagnhebn7ajfhg9.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "Feature-packed smartwatch with heart rate monitor and GPS.",
+        "specification": "Battery Life: 24 hours, Connectivity: Bluetooth, Color: Black"
+    },
+    {
+        "id": 89,
+        "name": "Tablet Case",
+        "price": 499,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cases-covers/flip-cover/r/j/6/fastway-26144-bksa9-fastway-original-imagvxzwgay5tqhj.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cases-covers/flip-cover/r/r/n/fastway-26143-bksa9-fastway-original-imagumh5rdfnc5hu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cases-covers/flip-cover/1/x/i/fastway-26144-bksa9-fastway-original-imagvxzw82etg8z4.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cases-covers/flip-cover/c/u/t/fastway-26144-bksa9-fastway-original-imagvrjsf6kanz5s.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/cases-covers/flip-cover/g/e/l/fastway-26143-bksa9-fastway-original-imagumh53s8qr3dq.jpeg?q=70&crop=false"
+        ],
+        "category": "Mobiles & Tablets",
+        "description": "Protective tablet case with a sleek design.",
+        "specification": "Material: PU Leather, Color: Brown, Compatible with: 10-inch Tablets"
+    },
+    {
+        "id": 90,
+        "name": "Kitchen Mixer",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mixer-grinder-juicer/h/j/h/450-nima-coffee-grinder-mixer-grinder-1-nilkanth-creation-hub-original-imah28g5kwjtqwch.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/g/i/d/by-mini-stainless-steel-coffee-spice-nuts-grains-bean-grinder-original-imah2ktngjzf2ajc.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mixer-grinder-juicer/c/d/m/450-nima-coffee-grinder-mixer-grinder-1-nilkanth-creation-hub-original-imah28g5atngpycu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mixer-grinder-juicer/9/q/u/450-nima-coffee-grinder-mixer-grinder-1-nilkanth-creation-hub-original-imah28g5npxd8wvx.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-mixer-grinder-juicer/w/v/j/450-nima-coffee-grinder-mixer-grinder-1-nilkanth-creation-hub-original-imah28g5ahhb5bgs.jpeg?q=70&crop=false"
+        ],
+        "category": "Home & Kitchen",
+        "description": "Powerful kitchen mixer with multiple speed settings.",
+        "specification": "Power: 500W, Color: White, Attachments: Whisk, Dough Hook"
+    },
+    {
+        "id": 91,
+        "name": "Noise Cancelling Headphones",
+        "price": 2599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/i/w/l/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imaghf8vdhga5xee.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/f/m/e/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2yukfvxcf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/1/e/k/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g29hu4kb6h.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/c/l/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2hchgkcgm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/n/z/m/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2shrvkg6z.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/x/3/a/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g27wc3y7ad.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/8/p/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g26qgxzfhe.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/e/l/x/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2tdgaqfrd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/i/t/5/nb119b-badshah-60-hours-playing-time-fast-charging-bluetooth-original-imagy2g2pmgv2v3x.jpeg?q=70&crop=false"
+        ],
+        "category": "Electronics",
+        "description": "High-quality noise cancelling headphones for an immersive audio experience.",
+        "specification": "Battery Life: 20 hours, Connectivity: Bluetooth, Color: Black"
+    },
+    {
+        "id": 92,
+        "name": "Leather Wallet",
+        "price": 799,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/i/v/d/rfid-protected-100-genuine-high-quality-mens-leather-wallet-original-imagm3huqnbucfhp.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/t/a/j/rfid-protected-100-genuine-high-quality-mens-leather-wallet-original-imagm3hugwmdac67.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/y/4/a/rfid-protected-100-genuine-high-quality-mens-leather-wallet-original-imagm3huxmqusf7b.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/s/r/x/rfid-protected-100-genuine-high-quality-mens-leather-wallet-original-imagm3hu48ed5ypd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/wallet-card-wallet/2/8/j/rfid-protected-100-genuine-high-quality-mens-leather-wallet-original-imagm3huuwacedv3.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "Stylish and durable leather wallet with multiple card slots.",
+        "specification": "Material: Genuine Leather, Color: Brown, Slots: 8"
+    },
+    {
+        "id": 93,
+        "name": "Face Cleanser",
+        "price": 299,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/p/o/o/-original-imagpgrgan627aea.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/y/e/u/-original-imagpgrgg6hebukz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/9/6/r/-original-imagpgrg4gfhk9ns.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/7/i/e/-original-imagpgrgpyv2mkm8.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/1/t/b/-original-imagpgrgga9ts7y9.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/b/m/6/-original-imagpgrgg7juhtqb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/2/j/q/-original-imagpgrgpzazn4z2.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/face-wash/u/v/k/-original-imagpgrgggbujcth.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "Gentle face cleanser suitable for all skin types.",
+        "specification": "Volume: 150ml, Ingredients: Aloe Vera, Chamomile"
+    },
+    {
+        "id": 94,
+        "name": "Wooden Dining Table",
+        "price": 9999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/kqmo8sw0/dining-set/f/8/t/6-seater-grey-0-rosewood-sheesham-dou-09-douceur-furnitures-warm-original-imag4hatte9wbvrs.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kqmo8sw0/dining-set/f/x/x/6-seater-grey-0-rosewood-sheesham-dou-09-douceur-furnitures-warm-original-imag4hatbmrzzqfa.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kqmo8sw0/dining-set/q/w/q/6-seater-grey-0-rosewood-sheesham-dou-09-douceur-furnitures-warm-original-imag4hatqgqbfhya.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kqmo8sw0/dining-set/2/z/7/6-seater-grey-0-rosewood-sheesham-dou-09-douceur-furnitures-warm-original-imag4hathfqxfndd.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kqmo8sw0/dining-set/3/s/h/6-seater-grey-0-rosewood-sheesham-dou-09-douceur-furnitures-warm-original-imag4hatdhenyyec.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/kqmo8sw0/dining-set/2/k/w/6-seater-grey-0-rosewood-sheesham-dou-09-douceur-furnitures-warm-original-imag4hatw42qvfvy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/dining-set/p/x/p/145-na-0-0-rosewood-sheesham-35-rectangle-45-72-106-68-35-89-6-original-imagggmhxredgvcx.jpeg?q=70&crop=false"
+        ],
+        "category": "Furniture",
+        "description": "Elegant wooden dining table with a natural finish.",
+        "specification": "Material: Oak Wood, Color: Natural, Dimensions: 150x90x75 cm"
+    },
+    {
+        "id": 96,
+        "name": "Almond Milk",
+        "price": 79,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/b/d/3/-original-imagvrdzmxfvuc7w.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/b/c/v/-original-imagvrdzhfuphyfn.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/o/x/5/-original-imagvrdzgzqhgrwq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/u/k/c/-original-imagvrdzbbqewaej.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/q/e/a/-original-imagvrdzzgt8mvwa.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/k/d/u/-original-imagvrdzuffmmqry.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/m/s/j/-original-imagvrdztr7vzctz.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/milk/i/k/t/-original-imagvrdzsej2k3te.jpeg?q=70&crop=false"
+        ],
+        "category": "Grocery",
+        "description": "Organic almond milk with no added sugar.",
+        "specification": "Volume: 1L, Certified Organic"
+    },
+    {
+        "id": 98,
+        "name": "Tablet Screen Protector",
+        "price": 259,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/t/k/l/afl05537-spigen-original-imahfhbgssrcbzb9.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/1/u/j/afl05537-spigen-original-imahfhbggh6t9nrp.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/m/m/z/afl05537-spigen-original-imahfhbg4ugzfzxu.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/x/d/j/afl05537-spigen-original-imahfhbgst5rhhsa.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/d/l/i/afl05537-spigen-original-imahfhbgpqm4wybg.jpeg?q=70&crop=false"
+        ],
+        "category": "Mobiles & Tablets",
+        "description": "Tempered glass screen protector for tablets.",
+        "specification": "Material: Tempered Glass, Thickness: 0.3mm, Compatibility: 10-inch Tablets"
+    },
+    {
+        "id": 101,
+        "name": "Stylish Sunglasses",
+        "price": 599,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/2/d/1/free-size-com179-dervin-original-imagdd9sjwxumqtf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/8/y/8/free-size-com179-dervin-original-imagdd9szq7czysk.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/i/a/x/free-size-com179-dervin-original-imagdd9stexnhket.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/l1whaq80/sunglass/u/1/u/free-size-com179-dervin-original-imagdd9sqbnybc39.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k62i5jk0/sunglass/d/g/v/50-ks7-dervin-original-imaext28cju6zzuw.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/k62i5jk0/sunglass/f/8/m/50-ks12-dervin-original-imafe6czxhahpv29.jpeg?q=70&crop=false"
+        ],
+        "category": "Fashion",
+        "description": "Trendy sunglasses with UV protection.",
+        "specification": "Material: Plastic, Color: Black, UV Protection: Yes"
+    },
+    {
+        "id": 102,
+        "name": "Herbal Shampoo",
+        "price": 319,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shampoo/a/g/v/-original-imagn4yyaf2mcfus.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shampoo/6/q/4/-original-imagn4yyqszmjesm.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shampoo/u/g/1/-original-imagn4yyzugnerzr.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shampoo/t/n/b/-original-imagn4yybqvj7pzb.jpeg?q=70&crop=false"
+        ],
+        "category": "Beauty",
+        "description": "Natural herbal shampoo for healthy and shiny hair.",
+        "specification": "Volume: 300ml, Ingredients: Green Tea, Aloe Vera"
+    },
+    {
+        "id": 106,
+        "name": "Wireless Earbuds Pro",
+        "price": 2999,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/f/g/z/-original-imaghzfpykshtyn2.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/r/t/2/-original-imagphztnzymget2.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/f/i/9/-original-imaghzfpgh4ygmpy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/x/0/j/-original-imaghzfpjfbc8kdb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/e/x/i/-original-imagphzt8vrqahwq.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/b/n/j/-original-imaghzfpdx9fxcfb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/7/f/m/-original-imaghzfpbyvxyyxb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/w/a/c/-original-imaghzfpzsfgzmpf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/b/i/2/-original-imaghzfpx72p5vnf.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/9/c/m/-original-imaghzfpfjhawcmh.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/m/g/j/-original-imaghzfz4hqx8ykz.jpeg?q=70&crop=false"
+        ],
+        "category": "Top Deals",
+        "description": "Premium wireless earbuds with noise cancellation and superior sound quality.",
+        "specification": "Battery Life: 10 hours, Connectivity: Bluetooth, Color: White"
+    },
+    {
+        "id": 107,
+        "name": "Smartphone Screen Protector",
+        "price": 199,
+        "imgUrl": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/z/z/z/temp5drealmec53blk-izap-original-imagvyzngxpzhvhy.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/3/q/u/temp5drealmec53blk-izap-original-imagvyzn2y9mtgzb.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/x/f/0/temp5drealmec53blk-izap-original-imagvyznstvwkxzg.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/9/c/y/temp5drealmec53blk-izap-original-imagvyznr4ruzzg8.jpeg?q=70&crop=false",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/screen-guard/tempered-glass/t/9/0/temp5drealmec53blk-izap-original-imagvyznrhykvgev.jpeg?q=70&crop=false"
+        ],
+        "category": "Mobiles & Tablets",
+        "description": "High-quality tempered glass screen protector for smartphones.",
+        "specification": "Material: Tempered Glass, Thickness: 0.3mm, Compatibility: Various Smartphones"
+    }
+]
