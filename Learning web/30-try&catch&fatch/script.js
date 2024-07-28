@@ -2,25 +2,25 @@
 
 // 1. Promise
 
-// const promiseOne = new Promise(function (resolve, reject) {
-//   setTimeout(function () {
-//     console.log("Hello from the promise 1");
-//     resolve()
-//   }, 2000);
-// });
+const promiseOne = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    console.log("Hello from the promise 1");
+    resolve()
+  }, 2000);
+});
 
-// promiseOne.then(function(){
-//     console.log("Resolved");
-// })
+promiseOne.then(function(){
+    console.log("Resolved");
+})
 
-// new Promise(function (resolve, reject) {
-//   setTimeout(() => {
-//     console.log("Promise 2");
-//     resolve();
-//   }, 1000);
-// }).then(function () {
-//   console.log("Resolved p 2");
-// });
+new Promise(function (resolve, reject) {
+  setTimeout(() => {
+    console.log("Promise 2");
+    resolve();
+  }, 1000);
+}).then(function () {
+  console.log("Resolved p 2");
+});
 
 // new Promise(function (resolve, reject) {
 //   setTimeout(() => {

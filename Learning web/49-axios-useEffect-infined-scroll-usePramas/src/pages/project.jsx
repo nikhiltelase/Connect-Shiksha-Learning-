@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import UserList from "./components/UserList";
-import UserDetail from "./components/UserDetail";
-import SearchBar from "./components/SearchBar";
+import UserList from "../components/UserList";
+import UserDetail from "../components/UserDetail";
+import SearchBar from "../components/SearchBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
+function Project() {
   const [users, setUsers] = useState([]);
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -22,7 +22,6 @@ function App() {
       const usersData = await getData();
       setUsers(usersData);
       setFilteredUsers(usersData);
-      
     }
     fetchData();
   }, []);
@@ -33,7 +32,7 @@ function App() {
         user.name.toLowerCase().includes(searchQuery.toLowerCase())
       )
     );
-  }, [searchQuery, users]);
+  }, [searchQuery]);
 
   return (
     <Router>
@@ -49,11 +48,7 @@ function App() {
             setSearchQuery={setSearchQuery}
           />
           <Routes>
-            <Route
-              exact
-              path="/"
-              element={<UserList users={filteredUsers} />}
-            />
+            <Route path="/" element={<UserList users={filteredUsers} />} />
             <Route path="/user/:id" element={<UserDetail />} />
           </Routes>
         </div>
@@ -62,4 +57,4 @@ function App() {
   );
 }
 
-export default App;
+export default Project;

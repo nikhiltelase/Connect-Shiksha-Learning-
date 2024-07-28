@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <InfiniteScroll
-        dataLength={posts.length} //This is important field to render the next data
+        dataLength={posts.length} 
         next={getData}
         hasMore={hasMore}
         loader={<Loader />}
