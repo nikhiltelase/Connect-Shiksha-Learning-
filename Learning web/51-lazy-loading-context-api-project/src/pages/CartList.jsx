@@ -21,9 +21,9 @@ function CartList() {
     showToast(`Successfully removed ${removeItem.name}`);
   };
 
-  const removeFromCart = (itemIndex) => {
+  const removeFromCart = (item) => {
     setShowPopup(true);
-    setRemoveItem(itemIndex);
+    setRemoveItem(item);
   };
 
   const updateQuantity = (itemIndex, quantity) => {
@@ -79,7 +79,7 @@ function CartList() {
                       ₹{item.price.toFixed(2)}
                     </p>
                     <Link to={`/category/${item.category}`}>
-                      <p className="text-gray-500 text-sm hover:font-semibold hover:text-blue-700 transition-all duration-300">
+                      <p className="text-gray-500 text-sm hover:font-semibold hover:text-blue-700 transition-colors duration-300">
                         {item.category}
                       </p>
                     </Link>
@@ -127,7 +127,7 @@ function CartList() {
           </div>
           {cart.length > 0 && (
             <div className="w-full lg:w-1/4 bg-white shadow rounded p-6 ml-0 mr-20 lg:ml-6 mt-6 lg:mt-0 ">
-              <div className="fixed w-[20%]">
+              <div className="fixed w-[20%] ">
                 <h2 className="text-2xl font-semibold mb-6">Price Details</h2>
                 <div className="flex justify-between mb-4">
                   <span className="text-lg">Price ({cart.length} items)</span>

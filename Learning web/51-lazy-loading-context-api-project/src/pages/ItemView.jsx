@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { contextData } from "../context/ContextApi";
 import CategoryLinks from "../components/CategoryLinks";
 import RelatedItems from "../components/RelatedItems";
@@ -83,7 +83,7 @@ function ItemView() {
           <div className="w-1/2 flex flex-col p-6">
             <h1 className="text-3xl font-bold mb-4">{viewItem.name}</h1>
             <p className="text-2xl text-blue-600 mb-4">₹{viewItem.price}</p>
-            <p className="text-lg text-gray-600 mb-4">{viewItem.category}</p>
+            <Link to={`/category/${viewItem.category}`}><p className="text-lg text-gray-600 mb-4 hover:text-blue-600">{viewItem.category}</p></Link>
             <p className="text-base mb-6">{viewItem.description}</p>
             <div className="flex space-x-4 mb-6">
               <button

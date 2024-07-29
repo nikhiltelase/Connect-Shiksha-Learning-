@@ -7,7 +7,6 @@ export const contextData = createContext(null);
 function ContextApi(props) {
   const [cart, setCart] = useState([]);
   const [items, setItems] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("");
 
   async function getData() {
     const { data } = await axios.get("/data.json");
@@ -35,8 +34,6 @@ function ContextApi(props) {
     items,
     cart,
     setCart,
-    searchQuery,
-    setSearchQuery,
     addToCart,
     isItemInCart,
   };

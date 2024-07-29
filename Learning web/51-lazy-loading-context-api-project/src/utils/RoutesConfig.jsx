@@ -1,12 +1,12 @@
 import React, { lazy } from "react";
-import Category from "../pages/Category";
-import ItemView from "../pages/ItemView";
-import Checkout from "../pages/Checkout";
-import OrderSuccess from "../pages/OrderSuccess";
 
 const Home = lazy(() => wait.then(() => import("../pages/Home")));
 const CartList = lazy(() => wait.then(() => import("../pages/CartList")));
 const Login = lazy(() => wait.then(() => import("../pages/Login")));
+const Category = lazy(() => wait.then(() => import("../pages/Category")));
+const ItemView = lazy(() => wait.then(() => import("../pages/ItemView")));
+const Checkout = lazy(() => wait.then(() => import("../pages/Checkout")));
+const OrderSuccess = lazy(() => wait.then(() => import("../pages/OrderSuccess")));
 
 function RoutesConfig() {
   const routes = [
@@ -49,5 +49,5 @@ export default RoutesConfig;
 const wait = new Promise((resolve) => {
   setTimeout(function () {
     resolve();
-  }, 100);
+  }, 1000);
 });

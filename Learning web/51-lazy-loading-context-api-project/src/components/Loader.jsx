@@ -3,7 +3,7 @@ import { Watch } from "react-loader-spinner";
 
 function Loader() {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
+    <div className="w-full h-screen flex flex-col justify-center items-center">
       <Watch
         visible={true}
         height="80"
@@ -14,6 +14,7 @@ function Loader() {
         wrapperStyle={{}}
         wrapperClass=""
       />
+      <h1 className="text-blue-500 text-xl mt-2">Lading...</h1>
     </div>
   );
 }

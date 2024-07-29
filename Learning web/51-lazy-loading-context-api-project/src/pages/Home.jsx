@@ -1,18 +1,19 @@
 import React, { useContext, useEffect, useState } from "react";
-import ItemList from "../components/ItemList";
-import OfferSlider from "../components/Slider";
 import CategoryLinks from "../components/CategoryLinks";
+import OfferSlider from "../components/Slider";
+import ItemList from "../components/ItemList";
 import { contextData } from "../context/ContextApi";
-import Search from "../components/Search";
+import Footer from "../components/Footer";
 
 function Home() {
-  const {searchQuery, items} = useContext(contextData)
-  const filteredItems = Search(items)
+  const { items} = useContext(contextData)
+
   return (
     <div className="w-full bg-slate-200">
       <CategoryLinks />
-      {searchQuery ? "" : <OfferSlider />}
-      <ItemList items={filteredItems} />
+      <OfferSlider />
+      <ItemList items={items} />
+      <Footer />
     </div>
   );
 }

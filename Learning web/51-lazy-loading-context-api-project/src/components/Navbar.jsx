@@ -2,8 +2,9 @@ import React, { useContext } from "react";
 import { FaShoppingCart, FaRegUserCircle, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { contextData } from "../context/ContextApi";
+import Search from "./Search";
 
-const Navbar = ({ searchQuery, setSearchQuery }) => {
+function Navbar() {
   const { cart } = useContext(contextData);
 
   return (
@@ -16,17 +17,7 @@ const Navbar = ({ searchQuery, setSearchQuery }) => {
           >
             My Shopee
           </Link>
-          <div className="flex items-center w-full max-w-xl mx-auto relative">
-            <input
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              type="text"
-              placeholder="Search for products, brands and more"
-              className="w-full px-4 py-2 rounded-lg outline-none transition duration-300"
-              aria-label="Search"
-            />
-            <FaSearch className="absolute right-3 text-gray-500 cursor-pointer hover:text-indigo-300 transition duration-300" />
-          </div>
+          <Search />
           <div className="flex items-center gap-6">
             <Link
               to="/login"
@@ -37,7 +28,7 @@ const Navbar = ({ searchQuery, setSearchQuery }) => {
             </Link>
             <Link
               to="/cart"
-              className="text-white text-3xl relative cursor-pointer hover:opacity-80"
+              className="text-white text-3xl relative cursor-pointer hover:opacity-80 select-none"
             >
               <FaShoppingCart />
               {cart.length > 0 && (
@@ -51,6 +42,6 @@ const Navbar = ({ searchQuery, setSearchQuery }) => {
       </nav>
     </>
   );
-};
+}
 
 export default Navbar;

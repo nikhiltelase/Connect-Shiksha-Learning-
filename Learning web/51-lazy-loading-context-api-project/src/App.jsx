@@ -4,13 +4,12 @@ import RoutesConfig from "./utils/RoutesConfig";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import { contextData } from "./context/ContextApi";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const routes = RoutesConfig();
 
 function App() {
-  const { searchQuery, setSearchQuery } = useContext(contextData);
   return (
     <BrowserRouter>
       <ToastContainer
@@ -25,7 +24,7 @@ function App() {
         pauseOnHover={false}
         theme="light"
       />
-      <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <Navbar />
       <Routes>
         {routes.map((route, index) => (
           <Route
@@ -35,6 +34,7 @@ function App() {
           />
         ))}
       </Routes>
+    
     </BrowserRouter>
   );
 }

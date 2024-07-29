@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { showToast } from "../utils/toastUtils";
 
 function OrderSuccess() {
   const { state } = useLocation();
@@ -12,6 +13,10 @@ function OrderSuccess() {
 
   const orderId = generateOrderId();
 
+  useEffect(() => {
+    showToast("Order Placed Successfully!");
+  }, []);
+
   return (
     <div className="container mx-auto pt-24 px-4 lg:px-0">
       <div className="bg-white p-8 shadow-xl rounded-lg text-center">
@@ -22,7 +27,9 @@ function OrderSuccess() {
           Order ID: {orderId}
         </h2>
         <div className="text-left">
-          <h3 className="text-xl font-semibold mb-4 text-gray-700">Order Details</h3>
+          <h3 className="text-xl font-semibold mb-4 text-gray-700">
+            Order Details
+          </h3>
           <table className="w-full mb-6 border-collapse border border-gray-200">
             <tbody>
               <tr className="bg-gray-100 border border-gray-200">
