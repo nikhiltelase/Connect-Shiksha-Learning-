@@ -51,19 +51,25 @@ function Search() {
         />
       </div>
       {searchQuery && (
-        <div className="max-h-96 bg-white -mt-3 pt-3 rounded-lg overflow-hidden">
-          {searchItems.map((item, index) => (
-            <Link
-              to={`item/${item.id}`}
-              key={index}
-              onClick={handleSuggestionClick}
-            >
-              <div className="flex p-2 items-center cursor-pointer hover:bg-slate-100">
-                <FaSearch className="text-gray-500 select-none" />
-                <h1 className="px-4">{item.name}</h1>
-              </div>
-            </Link>
-          ))}
+        <div className="max-h-96 bg-white -mt-3 pt-3 rounded-lg overflow-y-auto shadow-lg">
+          {searchItems.length > 0 ? (
+            searchItems.map((item, index) => (
+              <Link
+                to={`item/${item.id}`}
+                key={index}
+                onClick={handleSuggestionClick}
+              >
+                <div className="flex p-2 items-center cursor-pointer hover:bg-slate-100">
+                  <FaSearch className="text-gray-500 select-none" />
+                  <h1 className="px-4">{item.name}</h1>
+                </div>
+              </Link>
+            ))
+          ) : (
+            <div className="flex p-2 items-center cursor-pointer">
+              <h1 className="px-4 text-gray-500">No results found</h1>
+            </div>
+          )}
         </div>
       )}
     </div>

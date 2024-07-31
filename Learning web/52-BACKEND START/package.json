@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is my first  backend code",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "nikhil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
