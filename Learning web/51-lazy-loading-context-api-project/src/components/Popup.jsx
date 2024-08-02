@@ -8,13 +8,13 @@ function Popup({ message, onClose, onConfirm }) {
         <div className="flex justify-end space-x-4">
           <button
             onClick={onConfirm}
-            className="bg-blue-500 text-white px-2 sm:px-4 sm:py-2 rounded hover:bg-blue-600 transition"
+            className="bg-blue-500 text-white px-3 sm:px-4 sm:py-2 rounded hover:bg-blue-600 transition"
           >
             Yes
           </button>
           <button
             onClick={onClose}
-            className="bg-gray-300 text-gray-800 px-2 sm:px-4 sm:py-2 rounded hover:bg-gray-400 transition"
+            className="bg-gray-300 text-gray-800 px-3 sm:px-4 sm:py-2 rounded hover:bg-gray-400 transition"
           >
             No
           </button>

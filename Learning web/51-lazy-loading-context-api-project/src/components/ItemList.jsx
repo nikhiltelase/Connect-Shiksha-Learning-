@@ -1,13 +1,22 @@
 import React, { useContext, useEffect, useState } from "react";
 import { contextData } from "../context/ContextApi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaArrowUp } from "react-icons/fa";
 
 function ItemList({ items }) {
+  const navigate = useNavigate();
   const { addToCart, isItemInCart } = useContext(contextData);
   const [showGoToTop, setShowGoToTop] = useState(false);
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const [addButtonId, setAddButtonId] = useState(null);
+
+  const addButtonFunction = (item) => {
+    addToCart(item);
+    const itemInCart = isItemInCart(item.id);
+    if (itemInCart) {
+      navigate("/cart");
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -60,6 +69,7 @@ function ItemList({ items }) {
                   </div>
                 </div>
               </Link>
+
               <div className="px-2 py-2 sm:px-6 sm:py-4 text-center">
                 <Link to={`item/${item.id}`}>
                   <div className="font-bold text-sm sm:text-xl mb-2 text-gray-800">
@@ -75,22 +85,21 @@ function ItemList({ items }) {
                   </p>
                 </Link>
               </div>
+
               <div
                 className={`${
-                  addButtonId == item.id
-                    ? "opacity-100 "
-                    : "opacity-0"
+                  addButtonId == item.id ? "opacity-100 " : "opacity-0"
                 } hidden w-0 h-0 xl:w-auto xl:h-full xl:pb-4 xl:block transition-opacity duration-500`}
               >
                 <button
-                  onClick={() => addToCart(item)}
+                  onClick={() => addButtonFunction(item)}
                   className={`${
                     isItemInCart(item.id)
                       ? "bg-green-500 hover:bg-green-700"
                       : "bg-indigo-500 hover:bg-indigo-700"
                   } text-white font-bold py-2 px-4 rounded-full transform transition-transform duration-500 hover:scale-110`}
                 >
-                  {isItemInCart(item.id) ? "Add more" : "Add to Cart"}
+                  {isItemInCart(item.id) ? "view cart" : "add to cart"}
                 </button>
               </div>
             </div>

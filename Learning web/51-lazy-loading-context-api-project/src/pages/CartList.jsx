@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { TiPlus, TiMinus } from "react-icons/ti";
 import { contextData } from "../context/ContextApi";
 import { Link } from "react-router-dom";
 import Confirmation from "../components/Popup";
@@ -73,11 +74,13 @@ function CartList() {
                       <p className="text-gray-700 text-sm sm:text-lg">
                         ₹{item.price.toFixed(2)}
                       </p>
+
                       <Link to={`/category/${item.category}`}>
-                        <p className="text-gray-500 text-xs sm:text-sm hover:font-semibold hover:text-blue-700 transition-colors duration-300">
+                        <p className="text-gray-500 mb-1 text-xs sm:text-sm hover:font-semibold hover:text-blue-700 transition-colors duration-300">
                           {item.category}
                         </p>
                       </Link>
+
                       <div className="flex sm:mt-2">
                         <button
                           onClick={() =>
@@ -86,10 +89,10 @@ function CartList() {
                               Math.max(1, item.quantity - 1)
                             )
                           }
-                          className="bg-gray-200 text-gray-700 hover:bg-gray-300 rounded-full w-4 sm:w-8 h-4 sm:h-8 flex items-center justify-center transition-colors duration-300"
+                          className="bg-gray-200 text-gray-700 hover:bg-gray-300 rounded-full w-5 sm:w-8 h-5 sm:h-8 flex items-center justify-center transition-colors duration-300"
                           aria-label="Decrease quantity"
                         >
-                          -
+                          <TiMinus />
                         </button>
                         <span className="mx-2 text-xs sm:text-lg font-bold">
                           {item.quantity}
@@ -98,10 +101,10 @@ function CartList() {
                           onClick={() =>
                             updateQuantity(index, item.quantity + 1)
                           }
-                          className="bg-gray-200 text-gray-700 hover:bg-gray-300 rounded-full w-4 sm:w-8 h-4 sm:h-8 flex items-center justify-center transition-colors duration-300"
+                          className="bg-gray-200 text-gray-700 hover:bg-gray-300 rounded-full w-5 sm:w-8 h-5 sm:h-8 flex items-center justify-center transition-colors duration-300"
                           aria-label="Increase quantity"
                         >
-                          +
+                       <TiPlus />
                         </button>
                       </div>
                     </div>
@@ -116,7 +119,7 @@ function CartList() {
                     </button>
                   </div>
 
-                  <div className="fixed left-0 bottom-0 w-full z-10 bg-white p-2 sm:p-4 lg:hidden">
+                  <div className="fixed left-0 bottom-0 w-full z-10 bg-white py-2 px-4 sm:p-4 lg:hidden">
                     <div className="flex justify-between ">
                       <div className="flex flex-col">
                         <span className="text-sm sm:text-lg font-bold">

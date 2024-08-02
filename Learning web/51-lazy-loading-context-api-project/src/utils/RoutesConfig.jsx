@@ -1,12 +1,12 @@
 import React, { lazy } from "react";
 
-const Home = lazy(() => wait.then(() => import("../pages/Home")));
-const CartList = lazy(() => wait.then(() => import("../pages/CartList")));
-const Login = lazy(() => wait.then(() => import("../pages/Login")));
-const Category = lazy(() => wait.then(() => import("../pages/Category")));
-const ItemView = lazy(() => wait.then(() => import("../pages/ItemView")));
-const Checkout = lazy(() => wait.then(() => import("../pages/Checkout")));
-const OrderSuccess = lazy(() => wait.then(() => import("../pages/OrderSuccess")));
+const Home = lazy(() => import("../pages/Home"));
+const CartList = lazy(() => import("../pages/CartList"));
+const Login = lazy(() => import("../pages/Login"));
+const Category = lazy(() => import("../pages/Category"));
+const ItemView = lazy(() => import("../pages/ItemView"));
+const Checkout = lazy(() => import("../pages/Checkout"));
+const OrderSuccess = lazy(() => import("../pages/OrderSuccess"));
 
 function RoutesConfig() {
   const routes = [
@@ -45,9 +45,3 @@ function RoutesConfig() {
 }
 
 export default RoutesConfig;
-
-const wait = new Promise((resolve) => {
-  setTimeout(function () {
-    resolve();
-  }, 1000);
-});

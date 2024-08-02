@@ -29,6 +29,14 @@ function ItemView() {
   const [mainImg, setMainImg] = useState("");
   const [imgBorderIndex, setImgBorderIndex] = useState(0);
 
+  const addButtonFunction = (item) => {
+    addToCart(item);
+    const itemInCart = isItemInCart(item.id);
+    if (itemInCart) {
+      navigate("/cart");
+    }
+  };
+
   useEffect(() => {
     if (viewItem) {
       setMainImg(viewItem.imgUrl[0]);
@@ -95,14 +103,14 @@ function ItemView() {
             </p>
             <div className="w-full flex gap-2 lg:gap-0  lg:space-y-0 lg:space-x-4 mb-4 lg:mb-6">
               <button
-                onClick={() => addToCart(viewItem)}
+                onClick={() => addButtonFunction(viewItem)}
                 className={`py-2 px-4 lg:py-3 lg:px-6 rounded ${
                   isAddedToCart
                     ? "bg-green-500 hover:bg-green-600"
                     : "bg-blue-500 hover:bg-blue-600"
                 } text-white`}
               >
-                {isAddedToCart ? "Add more" : "Add to Cart"}
+                {isAddedToCart ? "View Cart" : "Add to Cart"}
               </button>
               <button
                 onClick={() => buyNow(viewItem)}
