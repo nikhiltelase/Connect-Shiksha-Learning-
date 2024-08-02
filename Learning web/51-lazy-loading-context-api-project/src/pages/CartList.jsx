@@ -147,6 +147,7 @@ function CartList() {
               </p>
             )}
           </div>
+          
           {cart.length > 0 && (
             <div className="w-full lg:w-[50%] bg-white shadow-lg rounded p-2 sm:p-6 mt-6 lg:mt-0 lg:ml-6">
               <h2 className="text-xl sm:text-2xl font-semibold mb-6">

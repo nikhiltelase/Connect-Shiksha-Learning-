@@ -44,7 +44,7 @@ function Checkout() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setShowPopup(true)
+    setShowPopup(true);
     if (conformAddress) {
       navigate("/order-success", {
         state: {
@@ -59,7 +59,15 @@ function Checkout() {
 
   return (
     <>
-    {showPopup ? <Popup message={"Is this the correct delivery address?"} onClose={onClose} onConfirm={onConfirm}/> : ''}
+      {showPopup ? (
+        <Popup
+          message={"Is this the correct delivery address?"}
+          onClose={onClose}
+          onConfirm={onConfirm}
+        />
+      ) : (
+        ""
+      )}
       <div className="container mx-auto pt-16 sm:pt-20 lg:pt-24 px-2 lg:px-6">
         <h1 className="text-lg sm:text-2xl lg:text-3xl font-bold sm:mb-4 lg:mb-8 lg:text-center">
           Checkout
@@ -138,39 +146,35 @@ function Checkout() {
                 />
               </div>
             </div>
-            <div className="w-full lg:w-1/3 lg:pl-6">
-              <div className="bg-white p-4 sm:p-6 lg:shadow-lg lg:rounded-lg">
-                <h2 className="text-lg sm:text-xl font-semibold mb-4">
-                  Price Details
-                </h2>
-                <div className="flex justify-between mb-2">
-                  <span className="sm:text-lg">
-                    Price ({cart.length} items)
-                  </span>
-                  <span className="sm:text-lg">₹{calculateTotal()}</span>
-                </div>
-                <div className="flex justify-between mb-2">
-                  <span className="sm:text-lg">Discount</span>
-                  <span className="sm:text-lg text-green-500">- ₹0</span>
-                </div>
-                <div className="flex justify-between mb-2">
-                  <span className="sm:text-lg">Delivery Charges</span>
-                  <span className="sm:text-lg text-green-500">Free</span>
-                </div>
-                <div className="flex justify-between mb-4">
-                  <span className="sm:text-lg font-bold">Total Amount</span>
-                  <span className="sm:text-lg font-bold">
-                    ₹{calculateTotal()}
-                  </span>
-                </div>
-                <p className="text-green-500">You will save ₹0 on this order</p>
+
+            <div className="w-full lg:w-[50%] bg-white shadow-lg rounded p-2 sm:p-6 mt-6 lg:mt-0 lg:ml-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-6">
+                Price Details
+              </h2>
+              <div className="flex justify-between mb-4">
+                <span className="sm:text-lg">Price ({cart.length} items)</span>
+                <span className="sm:text-lg">₹{calculateTotal()}</span>
               </div>
-              <button
-                type="submit"
-                className=" mt-4 w-full bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded transition duration-300"
-              >
+              <div className="flex justify-between mb-4">
+                <span className="sm:text-lg">Discount</span>
+                <span className="sm:text-lg text-green-500">- ₹0</span>
+              </div>
+              <div className="flex justify-between mb-4">
+                <span className="sm:text-lg">Delivery Charges</span>
+                <span className="sm:text-lg text-green-500">Free</span>
+              </div>
+              <div className="flex justify-between mb-4">
+                <span className="sm:text-lg font-bold">Total Amount</span>
+                <span className="sm:text-lg font-bold">
+                  ₹{calculateTotal()}
+                </span>
+              </div>
+              <button className="bg-orange-500 hover:bg-orange-700 text-white text-lg sm:text-xl font-bold p-2 sm:py-4 w-full rounded transition-colors duration-300">
                 Place Order
               </button>
+              <p className="mt-4 text-green-500">
+                You will save ₹0 on this order
+              </p>
             </div>
           </form>
         </div>
