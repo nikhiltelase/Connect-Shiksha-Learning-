@@ -1,16 +1,17 @@
-const express = require("express");
+import express from "express"
+import connectDb from "./config/database.js";
+import routes from "./routes/userRoutes.js";
+
 const app = express();
 const port = 1111;
 
+connectDb();
+
 app.get("/", (request, response) => {
-  response.send("<h1 style='color:red; text-align: center;'>jay shree ram</h1>");
+  response.send('jay shree ram')
 });
 
-app.get("/nikhil", (request, response) => {
-  response.send(
-    "<h1 style='color:red; text-align: center;'>Ram ram nihkil ji kaise hai app <br/> main appka server bol rha hu.<h1/>"
-  );
-});
+app.use("/user", routes)
 
 app.listen(port, () => {
   console.log(`server start on http://localhost:${port}/`);

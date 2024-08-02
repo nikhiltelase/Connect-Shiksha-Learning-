@@ -39,7 +39,7 @@ function RelatedItems({ viewItem, items }) {
 
   return (
     <div className="mt-2 pt-5 bg-white">
-      <h2 className="text-2xl  font-semibold mb-4 ml-10">Related Items</h2>
+      <h2 className="text-xl sm:text-2xl  font-semibold mb-4 ml-2 sm:ml-10">Related Items</h2>
       <ItemList items={relatedItems} />
     </div>
   );

@@ -1,10 +1,13 @@
 import React, { useContext, useState } from "react";
 import { contextData } from "../context/ContextApi";
 import { useNavigate } from "react-router-dom";
+import Popup from "../components/Popup";
 
 function Checkout() {
   const { cart, setCart } = useContext(contextData);
   const navigate = useNavigate();
+  const [showPopup, setShowPopup] = useState(false);
+  const [conformAddress, setConformAddress] = useState(false);
   const [address, setAddress] = useState({
     name: "",
     phone: "",
@@ -14,6 +17,15 @@ function Checkout() {
     state: "",
     zip: "",
   });
+
+  const onClose = () => {
+    setShowPopup(false);
+    setConformAddress(false);
+  };
+  const onConfirm = () => {
+    setShowPopup(false);
+    setConformAddress(true);
+  };
 
   const handleChange = (e) => {
     setAddress({
@@ -32,135 +44,138 @@ function Checkout() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/order-success", {
-      state: {
-        orderDetails: cart,
-        address,
-        totalAmount: calculateTotal(),
-      },
-    });
-    setCart([]);
+    setShowPopup(true)
+    if (conformAddress) {
+      navigate("/order-success", {
+        state: {
+          orderDetails: cart,
+          address,
+          totalAmount: calculateTotal(),
+        },
+      });
+      setCart([]);
+    }
   };
 
   return (
-    <div className="container mx-auto pt-24 px-24 flex flex-col lg:flex-row">
-      {/* Address Form */}
-      <form
-        onSubmit={handleSubmit}
-        className="w-full lg:w-3/4 p-4 bg-white shadow-xl rounded-lg"
-      >
-        <h2 className="text-2xl font-semibold mb-6">Delivery Address</h2>
-        <div className="space-y-4">
-          <div className="flex space-x-4">
-            <div className="w-1/2">
-              <label className="block text-gray-700">Name</label>
-              <input
-                type="text"
-                name="name"
-                value={address.name}
-                onChange={handleChange}
-                className="w-full p-2 border border-gray-300 rounded outline-none"
-                required
-              />
+    <>
+    {showPopup ? <Popup message={"Is this the correct delivery address?"} onClose={onClose} onConfirm={onConfirm}/> : ''}
+      <div className="container mx-auto pt-16 sm:pt-20 lg:pt-24 px-2 lg:px-6">
+        <h1 className="text-lg sm:text-2xl lg:text-3xl font-bold sm:mb-4 lg:mb-8 lg:text-center">
+          Checkout
+        </h1>
+        <div className="w-full">
+          <form
+            onSubmit={handleSubmit}
+            className="bg-white p-4 sm:p-6 lg:shadow-lg lg:rounded-lg mb-6 lg:mb-0 w-full flex flex-col justify-between lg:flex-row "
+          >
+            <div className="w-full">
+              <h2 className="text-sm sm:text-xl font-semibold mb-4">
+                Shipping Address
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  name="name"
+                  value={address.name}
+                  onChange={handleChange}
+                  placeholder="Name"
+                  required
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3"
+                />
+                <input
+                  type="text"
+                  name="phone"
+                  value={address.phone}
+                  onChange={handleChange}
+                  placeholder="Phone"
+                  required
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3"
+                />
+                <input
+                  type="text"
+                  name="addressLine1"
+                  value={address.addressLine1}
+                  onChange={handleChange}
+                  placeholder="Address Line 1"
+                  required
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3 col-span-1 sm:col-span-2"
+                />
+                <input
+                  type="text"
+                  name="addressLine2"
+                  value={address.addressLine2}
+                  onChange={handleChange}
+                  placeholder="Address Line 2"
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3 col-span-1 sm:col-span-2"
+                />
+                <input
+                  type="text"
+                  name="city"
+                  value={address.city}
+                  onChange={handleChange}
+                  placeholder="City"
+                  required
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3"
+                />
+                <input
+                  type="text"
+                  name="state"
+                  value={address.state}
+                  onChange={handleChange}
+                  placeholder="State"
+                  required
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3"
+                />
+                <input
+                  type="text"
+                  name="zip"
+                  value={address.zip}
+                  onChange={handleChange}
+                  placeholder="ZIP Code"
+                  required
+                  className="shadow border-2 border-gray-300 rounded-lg w-full text-gray-700 outline-none p-2 sm:p-3"
+                />
+              </div>
             </div>
-            <div className="w-1/2">
-              <label className="block text-gray-700">Phone</label>
-              <input
-                type="text"
-                name="phone"
-                value={address.phone}
-                onChange={handleChange}
-                className="w-full p-2 border border-gray-300 rounded outline-none"
-                required
-              />
+            <div className="w-full lg:w-1/3 lg:pl-6">
+              <div className="bg-white p-4 sm:p-6 lg:shadow-lg lg:rounded-lg">
+                <h2 className="text-lg sm:text-xl font-semibold mb-4">
+                  Price Details
+                </h2>
+                <div className="flex justify-between mb-2">
+                  <span className="sm:text-lg">
+                    Price ({cart.length} items)
+                  </span>
+                  <span className="sm:text-lg">₹{calculateTotal()}</span>
+                </div>
+                <div className="flex justify-between mb-2">
+                  <span className="sm:text-lg">Discount</span>
+                  <span className="sm:text-lg text-green-500">- ₹0</span>
+                </div>
+                <div className="flex justify-between mb-2">
+                  <span className="sm:text-lg">Delivery Charges</span>
+                  <span className="sm:text-lg text-green-500">Free</span>
+                </div>
+                <div className="flex justify-between mb-4">
+                  <span className="sm:text-lg font-bold">Total Amount</span>
+                  <span className="sm:text-lg font-bold">
+                    ₹{calculateTotal()}
+                  </span>
+                </div>
+                <p className="text-green-500">You will save ₹0 on this order</p>
+              </div>
+              <button
+                type="submit"
+                className=" mt-4 w-full bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded transition duration-300"
+              >
+                Place Order
+              </button>
             </div>
-          </div>
-          <div>
-            <label className="block text-gray-700">Address Line 1</label>
-            <input
-              type="text"
-              name="addressLine1"
-              value={address.addressLine1}
-              onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded outline-none"
-              required
-            />
-          </div>
-          <div>
-            <label className="block text-gray-700">Address Line 2</label>
-            <input
-              type="text"
-              name="addressLine2"
-              value={address.addressLine2}
-              onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded outline-none"
-            />
-          </div>
-          <div className="flex space-x-4">
-            <div className="w-1/3">
-              <label className="block text-gray-700">City</label>
-              <input
-                type="text"
-                name="city"
-                value={address.city}
-                onChange={handleChange}
-                className="w-full p-2 border border-gray-300 rounded outline-none"
-                required
-              />
-            </div>
-            <div className="w-1/3">
-              <label className="block text-gray-700">State</label>
-              <input
-                type="text"
-                name="state"
-                value={address.state}
-                onChange={handleChange}
-                className="w-full p-2 border border-gray-300 rounded outline-none"
-                required
-              />
-            </div>
-            <div className="w-1/3">
-              <label className="block text-gray-700">ZIP Code</label>
-              <input
-                type="text"
-                name="zip"
-                value={address.zip}
-                onChange={handleChange}
-                className="w-full p-2 border border-gray-300 rounded outline-none"
-                required
-              />
-            </div>
-          </div>
-        </div>
-        <button
-          type="submit"
-          className="mt-6 w-fit px-6 bg-orange-500 hover:bg-orange-700 text-white text-xl font-bold py-4 rounded transition-colors duration-300"
-        >
-          Place Order
-        </button>
-      </form>
-
-      {/* Price Details */}
-      <div className="w-full lg:w-1/4 bg-white shadow-xl rounded-lg p-6 lg:ml-6 mt-6 lg:mt-0">
-        <h2 className="text-2xl font-semibold mb-6">Price Details</h2>
-        <div className="flex justify-between mb-4">
-          <span className="text-lg">Price ({cart.length} items)</span>
-          <span className="text-lg">₹{calculateTotal()}</span>
-        </div>
-        <div className="flex justify-between mb-4">
-          <span className="text-lg">Discount</span>
-          <span className="text-lg text-green-500">0</span>
-        </div>
-        <div className="flex justify-between mb-4">
-          <span className="text-lg">Delivery Charges</span>
-          <span className="text-lg text-green-500">Free</span>
-        </div>
-        <div className="flex justify-between mb-4">
-          <span className="text-lg font-bold">Total Amount</span>
-          <span className="text-lg font-bold">₹{calculateTotal()}</span>
+          </form>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

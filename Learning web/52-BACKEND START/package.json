@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "this is my first  backend code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
   "author": "nikhil",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
   }
 }

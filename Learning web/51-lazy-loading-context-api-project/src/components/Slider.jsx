@@ -35,15 +35,17 @@ const offers = [
 ];
 
 const OfferSlider = () => {
-  const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 640);
 
   useEffect(() => {
-      if (window.innerWidth >= 1024) {
-        setIsLargeScreen(true);
-      }else{
-        setIsLargeScreen(false)
-      }
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 640);
+    };
 
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   const CustomPrevArrow = (props) => {
@@ -53,6 +55,7 @@ const OfferSlider = () => {
         className={className}
         onClick={onClick}
         style={{ ...style, left: "10px", position: "absolute", zIndex: "5" }}
+        aria-label="Previous Slide"
       />
     );
   };
@@ -64,6 +67,7 @@ const OfferSlider = () => {
         className={className}
         onClick={onClick}
         style={{ ...style, right: "10px", position: "absolute", zIndex: "5" }}
+        aria-label="Next Slide"
       />
     );
   };
@@ -84,7 +88,7 @@ const OfferSlider = () => {
     <div className="overflow-hidden">
       <Slider {...settings}>
         {offers.map((offer) => (
-          <div key={offer.id} className="">
+          <div key={offer.id}>
             <Link to={offer.link}>
               <img
                 src={isLargeScreen ? offer.imgSrc2 : offer.imgSrc}
@@ -92,8 +96,8 @@ const OfferSlider = () => {
                 className={`${
                   isLargeScreen
                     ? "w-full h-60 object-top object-cover"
-                    : "w-full h-auto "
-                } rounded-md shadow-md `}
+                    : "w-full h-auto"
+                } rounded-md shadow-md`}
               />
             </Link>
           </div>

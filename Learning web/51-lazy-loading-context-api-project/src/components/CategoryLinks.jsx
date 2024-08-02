@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 function CategoryLinks() {
   const categories = [
-    { link: 'Categories', img: 'https://rukminim1.flixcart.com/flap/480/450/image/033f3268031fa0ba.jpg?q=20' },
+    { link: 'Category', img: 'https://rukminim1.flixcart.com/flap/480/450/image/033f3268031fa0ba.jpg?q=20' },
     { link: 'Top Deals', img: 'https://rukminim1.flixcart.com/flap/480/450/image/0f3d008be60995d4.jpg?q=20' },
-    { link: 'Mobiles', img: 'https://rukminim1.flixcart.com/flap/480/450/image/42f9a853f9181279.jpg?q=20' },
+    { link: 'Mobiles & Tablets', img: 'https://rukminim1.flixcart.com/flap/480/450/image/42f9a853f9181279.jpg?q=20' },
     { link: 'Fashion', img: 'https://rukminim1.flixcart.com/flap/480/450/image/f07bb3e1c1392b47.jpg?q=20' },
     { link: 'Electronics', img: 'https://rukminim1.flixcart.com/flap/480/450/image/913e96c334d04395.jpg?q=20' },
     { link: 'Home & Kitchen', img: 'https://rukminim1.flixcart.com/flap/480/450/image/4be8a679014497f0.png?q=20' },
