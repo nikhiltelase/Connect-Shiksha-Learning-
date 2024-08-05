@@ -14,7 +14,7 @@ function Loader() {
         wrapperStyle={{}}
         wrapperClass=""
       />
-      <h1 className="text-blue-500 text-xl mt-2">Lading...</h1>
+      <h1 className="text-blue-500 text-xl mt-2">Loading...</h1>
     </div>
   );
 }
