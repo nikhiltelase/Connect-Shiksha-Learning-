@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RoutesConfig from "./utils/RoutesConfig";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
-import { contextData } from "./context/ContextApi";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

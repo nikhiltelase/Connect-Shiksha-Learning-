@@ -1,18 +1,17 @@
 {
-  "name": "backend",
+  "name": "53-my-project-backend",
   "version": "1.0.0",
-  "description": "this is my first  backend code",
+  "description": "handel backend api's for my react e-commers app",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "nikhil",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2"
   }
 }
