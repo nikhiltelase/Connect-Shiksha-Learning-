@@ -9,7 +9,7 @@ dotenv.config();
 const JWT_SECRET = process.env.JWT_SECRET;
 const OTP_SECRET = process.env.OTP_SECRET;
 const OTP_EXPIRY = "10m";
-const TOKEN_EXPIRY = "1h";
+const TOKEN_EXPIRY = "15days";
 
 // Helper function to generate a random OTP
 const generateOtp = () => Math.floor(100000 + Math.random() * 900000);

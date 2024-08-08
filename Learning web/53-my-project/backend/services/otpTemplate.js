@@ -22,9 +22,13 @@ The My Shopee Team
 P.S. For your security, never share your OTP with anyone. 
   `;
 
-  // Use your email sending service to send the email
-  await sendEmail(userEmail, subject, body);
-  return true;
+  // send the email
+  try {
+    await sendEmail(userEmail, subject, body);
+    return true;
+  } catch (error) {
+    return false;
+  }
 };
 
 export default sendOtpEmail;
