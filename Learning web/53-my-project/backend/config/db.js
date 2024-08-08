@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const connectDb = () => {
     try {
         mongoose.connect("mongodb://localhost:27017/app_data")
-        console.log("connected to database succefullly.")
+        console.log("connected to database successfully.")
     } catch (error) {
         console.log("database error", error)
     }

@@ -1,10 +1,11 @@
 import Item from "../models/itemModel.js";
 
-export const getAllItems = async (req, res) => {
-    try {
-       const allItems = await Item.find() 
-       res.send(allItems)
-    } catch (error) {
-        console.log(error)
-    }
-}
+//get all items
+export const allItems = async (req, res) => {
+  try {
+    const items = await Item.find();
+    return res.status(200).json({ success: true, items });
+  } catch (error) {
+    return res.status(404).json({ success: false, message: error.message });
+  }
+};
