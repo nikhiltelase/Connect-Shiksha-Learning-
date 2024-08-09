@@ -55,20 +55,6 @@ export const createUser = async (req, res) => {
   }
 };
 
-// Get a single user by ID
-export const oneUser = async (req, res) => {
-  try {
-    const userId = req.params.userId;
-    const user = await User.findById(userId);
-    if (!user) {
-      return sendResponse(res, 404, false, "User not found.");
-    }
-    sendResponse(res, 200, true, "User found.", { user });
-  } catch (error) {
-    sendResponse(res, 500, false, error.message);
-  }
-};
-
 // Sign in a user
 export const signIn = async (req, res) => {
   const { email, password } = req.body;
@@ -96,6 +82,30 @@ export const signIn = async (req, res) => {
     sendResponse(res, 500, false, error.message);
   }
 };
+
+// Get a current user by jwt token
+export const currentUser = async (req, res) => {
+  try {
+    const header = req.headers.authorization
+    if (!header) {
+      return sendResponse(res, 401, false, "authorization header is required")
+    }
+    const token = header.split(" ")[1]
+    if (!token){
+      return sendResponse(res, 401, false, "token is required")
+    }
+    
+    const {userId} = jwt.verify(token, JWT_SECRET)
+    const user = await User.findById(userId);
+    if (!user) {
+      return sendResponse(res, 404, false, "User not found.");
+    }
+    sendResponse(res, 200, true, "User found.", { user });
+  } catch (error) {
+    sendResponse(res, 500, false, error.message);
+  }
+};
+
 
 // Send OTP for password reset
 export const sendOtp = async (req, res) => {

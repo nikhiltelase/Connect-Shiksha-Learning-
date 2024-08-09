@@ -2,7 +2,7 @@ import express from "express";
 import {
   createUser,
   forgetPassword,
-  oneUser,
+  currentUser,
   sendOtp,
   signIn,
   verifyOtp,
@@ -11,8 +11,8 @@ import {
 const userRoutes = express.Router();
 
 userRoutes.post("/register", createUser);
-userRoutes.get("/:userId", oneUser)
-userRoutes.post("/sign-in", signIn);
+userRoutes.get("/currentUser", currentUser)
+userRoutes.post("/login", signIn);
 userRoutes.post("/send-otp", sendOtp);
 userRoutes.post("/verify-otp", verifyOtp);
 userRoutes.post("/forget-password", forgetPassword);

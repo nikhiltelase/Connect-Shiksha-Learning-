@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors"
 import connectDb from "./config/db.js";
 import itemRoutes from "./routes/itemRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
@@ -9,6 +10,11 @@ connectDb();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
+
 
 app.get("/", (req, res) => {
   res.send("jay shree ram");
